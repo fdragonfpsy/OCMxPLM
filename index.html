@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src data:">
+<meta name="description" content="PLM Change Navigator by Capgemini Invent: see the people side of your PLM transformation.">
+<title>PLM Change Navigator · Capgemini Invent</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#121A38; --input-bg:#121A38; --surf:#1A2550; --surf-h:#22305E; --border:#46527A; --card-border:rgba(175,187,214,.30);
+  --text:#FFFFFF; --t2:#E9EEF5; --t3:#D7DEEA; --t4:#BAC5D9;
+  --accent:#1DB8F2; --accent-h:#0FA6DE; --accent2:#00D5D0; --on-accent:#121A38;
+  --accent-soft:rgba(29,184,242,.14); --accent-mid:rgba(29,184,242,.45);
+  --ok:#2FBF8F; --warn:#F2B84B; --crit:#E5616B; --focus:#72D6FA;
+  --shadow:0 8px 24px rgba(0,0,0,.35);
+  --font:"Ubuntu","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+  --r-card:8px; --r-ctl:6px;
+}
+:root[data-theme=light]{
+  color-scheme:light;
+  --bg:#FFFFFF; --input-bg:#FFFFFF; --surf:#F2F6FA; --surf-h:#E1EEF9; --border:#BFC9D6; --card-border:#C9D2DE;
+  --text:#121A38; --t2:#2F3A58; --t3:#4A5675; --t4:#5B6785;
+  --accent:#0058AB; --accent-h:#004A91; --accent2:#00929B; --on-accent:#FFFFFF;
+  --accent-soft:rgba(0,88,171,.08); --accent-mid:rgba(0,88,171,.35);
+  --ok:#1B8F68; --warn:#A86300; --crit:#C23A45; --focus:#0058AB;
+  --shadow:0 8px 24px rgba(18,26,56,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+*{scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.5;min-height:100vh;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+[tabindex="-1"]:focus{outline:none}
+h1,h2,h3,h4{font-weight:500;line-height:1.15}
+h1{font-size:clamp(30px,4.2vw,46px)} h2{font-size:clamp(24px,3vw,32px)} h3{font-size:21px;line-height:1.25} h4{font-size:17px;line-height:1.3}
+p{color:var(--t2)}
+a{color:var(--accent)}
+.small{font-size:14px}.cap{font-size:12px;color:var(--t3)}.muted{color:var(--t3)}
+.hidden{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-60px;z-index:100;background:var(--accent);color:var(--on-accent);padding:10px 16px;border-radius:var(--r-ctl);font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+
+/* header */
+.top{height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 32px;border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:0;z-index:30}
+.brand{display:flex;align-items:center;gap:16px;min-width:0}
+.brand img{height:30px;width:auto;display:block}
+.brand img.logo-light{display:none}
+:root[data-theme=light] .brand img.logo-dark{display:none}
+:root[data-theme=light] .brand img.logo-light{display:block}
+.brand span{color:var(--t3);font-weight:300;font-size:15px;border-left:1px solid var(--border);padding-left:16px;white-space:nowrap}
+.toprt{display:flex;align-items:center;gap:12px}
+.lang{display:inline-flex;border:1px solid var(--border);border-radius:var(--r-ctl);overflow:hidden}
+.lang button{height:34px;min-width:44px;padding:0 10px;background:none;border:0;cursor:pointer;font-size:13px;font-weight:500;color:var(--t3)}
+.lang button+button{border-left:1px solid var(--border)}
+.lang button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);font-weight:700}
+.iconbtn{width:34px;height:34px;display:inline-grid;place-items:center;background:none;border:1px solid var(--border);border-radius:var(--r-ctl);color:var(--t2);cursor:pointer}
+.iconbtn:hover{border-color:var(--accent);color:var(--accent)}
+.pbar-bg{position:absolute;left:0;right:0;bottom:-1px;height:4px;background:var(--border)}
+.pbar{position:absolute;left:0;bottom:-1px;height:4px;background:var(--accent);transition:width .4s ease}
+
+/* acts */
+.acts{display:flex;gap:8px;max-width:820px;margin:0 auto 36px}
+.acts div{flex:1}
+.acts i{display:block;height:4px;border-radius:2px;background:var(--border);margin-bottom:8px}
+.acts .on i{background:var(--accent)}.acts .cur i{background:var(--text)}
+.acts span{font-size:13px;color:var(--t4)}
+.acts .cur span{color:var(--text);font-weight:500}.acts .on span{color:var(--t2)}
+
+/* demo banner */
+.demo{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:8px 16px;background:#F2B84B;color:#121A38;font-size:14px;font-weight:700}
+.demo button{background:#121A38;color:#fff;border:0;border-radius:var(--r-ctl);padding:4px 12px;font-size:13px;font-weight:500;cursor:pointer}
+
+/* layout */
+main{padding:44px clamp(16px,5vw,64px) 96px;min-width:0}
+main:focus{outline:none}
+.col{max-width:820px;margin:0 auto}
+.wide{max-width:1120px;margin:0 auto}
+.label{font-size:13px;font-weight:500;color:var(--accent);margin-bottom:12px;display:block;letter-spacing:.01em}
+.lead{font-size:18px;margin-top:16px;max-width:68ch}
+.card{background:var(--surf);border:1px solid var(--card-border);border-radius:var(--r-card);padding:24px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.mt8{margin-top:8px}.mt16{margin-top:16px}.mt24{margin-top:24px}.mt32{margin-top:32px}.mt48{margin-top:48px}
+.btn{height:48px;padding:0 24px;border-radius:var(--r-ctl);border:1px solid transparent;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:background .15s,border-color .15s,transform .15s;text-decoration:none}
+.btn.pri{background:var(--accent);color:var(--on-accent)}.btn.pri:hover{background:var(--accent-h)}
+.btn.sec{background:transparent;border-color:var(--t4);color:var(--text);font-weight:500}.btn.sec:hover{border-color:var(--accent)}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+.btn.pri:not([disabled]):active{transform:scale(.98)}
+.link{background:none;border:0;color:var(--accent);cursor:pointer;font-weight:500;padding:6px 0;text-align:left}
+.link:hover{text-decoration:underline}
+.actions{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:36px;flex-wrap:wrap}
+.qh{margin-bottom:6px}
+.qsub{color:var(--t3);font-size:15px;margin-bottom:20px}
+.block+.block{margin-top:40px}
+
+/* welcome */
+.hook{display:flex;gap:16px;align-items:flex-start;border-left:3px solid var(--accent2);background:var(--surf);padding:16px 20px;border-radius:0 var(--r-card) var(--r-card) 0;margin:32px 0}
+.hook b{font-weight:500;color:var(--text);display:block}
+.hook .cap{margin-top:6px;display:block}
+.journey{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:8px 0 28px}
+.journey .card{padding:20px}
+.journey .label{margin-bottom:6px}
+.journey h4{margin-bottom:6px}
+.journey p{font-size:14px}
+.ticks{list-style:none;display:flex;flex-direction:column;gap:10px;margin:8px 0 32px}
+.ticks li{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--t2)}
+.ticks svg{flex:none;color:var(--accent)}
+.namebox{padding:24px;border:1px solid var(--accent-mid);background:var(--accent-soft);border-radius:var(--r-card)}
+.namebox label{font-size:18px;font-weight:500;display:block;margin-bottom:12px}
+.namerow{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.namerow .inp{flex:1 1 260px}
+.help{font-size:14px;color:var(--t3);margin-top:10px}
+
+/* inputs */
+.inp{height:48px;padding:0 14px;background:var(--input-bg);border:1px solid var(--border);border-radius:var(--r-ctl);width:100%}
+textarea.inp{height:auto;min-height:96px;padding:12px 14px;resize:vertical;font-family:ui-monospace,Consolas,monospace;font-size:14px}
+.inp:hover{border-color:var(--t4)}.inp:focus{border-color:var(--accent)}
+select.inp option{background:var(--input-bg);color:var(--text)}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:14px;color:var(--t2);font-weight:500}
+.field .opt{color:var(--t3);font-weight:300}
+
+/* type cards */
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tcard{position:relative;display:flex;gap:16px;align-items:flex-start;text-align:left;padding:20px;background:var(--surf);border:1px solid var(--border);border-radius:var(--r-card);cursor:pointer;transition:border-color .15s,background .15s,transform .15s;min-height:104px}
+.tcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+.tcard[aria-pressed=true]{border:2px solid var(--accent);background:var(--surf-h);padding:19px}
+.tcard[disabled]{opacity:.45;cursor:not-allowed;transform:none}
+.tcard .ic{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}
+.tcard[aria-pressed=true] .ic{background:var(--accent);color:var(--on-accent)}
+.tcard .t{font-weight:500;color:var(--text);display:block}
+.tcard .d{color:var(--t2);font-size:14px;display:block;margin-top:2px}
+.tcard .chk{position:absolute;top:12px;right:12px;width:22px;height:22px;border-radius:50%;border:1.5px solid var(--t4);display:grid;place-items:center}
+.tcard[aria-pressed=true] .chk{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.counter{font-size:14px;color:var(--t3);margin:-8px 0 16px}
+
+/* answer cards */
+.answers{display:flex;flex-direction:column;gap:10px}
+.answers.row{flex-direction:row;flex-wrap:wrap}
+.answers.row .ans{flex:1 1 140px;min-height:60px}
+.ans{display:flex;gap:14px;align-items:center;text-align:left;width:100%;min-height:60px;padding:14px 20px;background:var(--surf);border:1px solid var(--border);border-radius:var(--r-card);cursor:pointer;transition:border-color .15s,background .15s}
+.ans:hover{border-color:var(--accent)}
+.ans[aria-checked=true]{border:2px solid var(--accent);background:var(--surf-h);padding:13px 19px}
+.ans .k{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--t4);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--t2)}
+.ans[aria-checked=true] .k{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.ans .t{font-weight:500;color:var(--text)}
+.ans.cs{border-style:dashed;background:transparent}
+.ans.cs .k{border-style:dashed}
+
+/* stepper */
+.stepper{display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative;margin:8px 0 4px}
+.stepper:before{content:"";position:absolute;left:8%;right:8%;top:19px;height:2px;background:var(--border)}
+.stp{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px;background:none;border:0;cursor:pointer;padding:0 6px;text-align:center;color:var(--t2);font-size:14px;line-height:1.3}
+.stp .n{width:40px;height:40px;border-radius:50%;background:var(--bg);border:2px solid var(--border);display:grid;place-items:center;font-weight:700;color:var(--t3);transition:all .2s}
+.stp:hover .n{border-color:var(--accent)}
+.stp[aria-checked=true] .n{background:var(--accent);border-color:var(--accent);color:var(--on-accent);transform:scale(1.12)}
+.stp[aria-checked=true]{color:var(--text);font-weight:500}
+
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;border:1.5px solid var(--border);background:transparent;cursor:pointer;font-size:14px;color:var(--t2);transition:all .15s}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:500}
+
+/* tension cards */
+.dots{display:flex;gap:6px;margin-bottom:20px}
+.dots i{width:28px;height:4px;border-radius:2px;background:var(--border)}
+.dots i.on{background:var(--accent)}.dots i.cur{background:var(--text)}
+.tcard2{background:var(--surf);border:1px solid var(--card-border);border-radius:var(--r-card);padding:32px}
+.tcard2.enter{animation:slidein .35s ease}
+@keyframes slidein{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+.poles{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:28px 0 8px}
+.pole{font-size:16px;color:var(--text);font-weight:500;line-height:1.35}
+.pole.b{text-align:right}
+.pole small{display:block;font-size:12px;color:var(--t3);font-weight:400;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.track{position:relative;display:flex;justify-content:space-between;align-items:center;height:64px;margin:4px 6px}
+.rail{position:absolute;left:12px;right:12px;top:50%;height:4px;margin-top:-2px;border-radius:2px;background:linear-gradient(90deg,var(--accent2),var(--border) 50%,var(--accent))}
+.stop{position:relative;z-index:1;width:28px;height:28px;border-radius:50%;border:2px solid var(--t4);background:var(--surf);cursor:pointer;transition:all .2s ease;display:grid;place-items:center}
+.stop:hover{border-color:var(--accent);transform:scale(1.15)}
+.stop[aria-checked=true]{width:44px;height:44px;background:var(--accent);border-color:var(--accent);box-shadow:0 0 0 8px var(--accent-soft)}
+.stop[aria-checked=true]:after{content:"";width:12px;height:12px;border-radius:50%;background:var(--on-accent)}
+.poslabel{text-align:center;font-size:14px;color:var(--t3);min-height:21px;margin-top:4px}
+.poslabel.set{color:var(--accent);font-weight:500}
+.csrow{display:flex;justify-content:center;margin-top:16px}
+.csbtn{background:none;border:1.5px dashed var(--t4);border-radius:999px;padding:6px 16px;color:var(--t2);cursor:pointer;font-size:14px}
+.csbtn[aria-pressed=true]{border-style:solid;border-color:var(--accent);color:var(--accent);font-weight:500}
+.helper{color:var(--t3);font-size:15px;margin:-4px 0 20px}
+
+/* summary card */
+.summary{display:flex;gap:20px;align-items:flex-start;padding:28px;background:var(--surf);border:1px solid var(--card-border);border-left:4px solid var(--accent);border-radius:var(--r-card)}
+.summary .big{font-size:20px;color:var(--text);line-height:1.4}
+.ring{flex:none;width:64px;height:64px;position:relative}
+.ring svg{width:100%;height:100%}
+.ring .bg{fill:none;stroke:var(--border);stroke-width:5}
+.ring .fg{fill:none;stroke:var(--accent);stroke-width:5;stroke-linecap:round;stroke-dasharray:176;stroke-dashoffset:176;animation:draw 0.9s .1s ease forwards;transform:rotate(-90deg);transform-origin:50% 50%}
+.ring .ck{fill:none;stroke:var(--accent);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:40;stroke-dashoffset:40;animation:draw .4s .8s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+/* reveal */
+.reveal{text-align:center}
+.flips{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:40px 0 32px;perspective:1200px}
+.flip{height:220px;position:relative}
+.flip .in{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.flip.on .in{transform:rotateY(180deg)}
+.flip .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:var(--r-card);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px;text-align:center}
+.flip .back{background:repeating-linear-gradient(135deg,var(--surf) 0 12px,var(--surf-h) 12px 24px);border:1px solid var(--border)}
+.flip .back b{font-size:44px;font-weight:300;color:var(--accent)}
+.flip .front{background:var(--surf);border:2px solid var(--accent);transform:rotateY(180deg);justify-content:flex-start;padding-top:44px}
+.flip .front .label{margin-bottom:10px}
+.flip .front h3{font-size:19px}
+
+/* results */
+.rhead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.disc{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--t3);margin-top:12px}
+.sumline{font-size:19px;color:var(--text);margin:28px 0 8px;max-width:72ch;line-height:1.45}
+.callout{border-left:3px solid var(--accent2);background:var(--surf);padding:14px 20px;border-radius:0 var(--r-card) var(--r-card) 0;margin:24px 0 0;font-size:15px;color:var(--t2)}
+.hots{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px}
+.hot{background:var(--surf);border:1px solid var(--card-border);border-top:4px solid var(--accent);border-radius:var(--r-card);padding:24px;display:flex;flex-direction:column;gap:14px}
+.hot .tags{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:999px;font-size:12px;font-weight:500;border:1.5px solid var(--border);color:var(--t2);white-space:nowrap}
+.tag.acc{border-color:var(--accent);color:var(--accent)}
+.tag.fb{border-style:dashed}
+.hot h3{font-size:20px}
+.hot .sec b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);font-weight:500;margin-bottom:4px}
+.hot .sec p{font-size:15px}
+.hot details summary{cursor:pointer;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);font-weight:500;list-style:none;display:flex;align-items:center;gap:6px}
+.hot details summary::-webkit-details-marker{display:none}
+.hot details summary:before{content:"+";display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--t4);border-radius:3px;font-size:12px}
+.hot details[open] summary:before{content:"–"}
+.hot details ul{margin:8px 0 0 18px;font-size:15px;color:var(--t2)}
+.hot .ev{font-size:13px;color:var(--t3);border-top:1px solid var(--border);padding-top:12px}
+.hot .ev span{display:block}
+.hot .ask{background:var(--accent-soft);border-radius:var(--r-ctl);padding:14px 16px}
+.kk{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:var(--t3);margin-bottom:4px}
+.hot .ask .kk{color:var(--accent)}
+.hot .ask p{color:var(--text);font-weight:500;font-size:16px}
+.hot .exp{font-size:14px;color:var(--t2)}
+.hot .exp b{display:inline;text-transform:none;letter-spacing:0;font-size:14px;color:var(--text)}
+.sechead{margin:64px 0 8px}
+.secsub{color:var(--t3);font-size:15px;margin-bottom:20px}
+.pills{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.pill{position:relative;text-align:left;padding:16px 14px 14px;border-radius:var(--r-card);border:1.5px solid var(--border);background:transparent;cursor:pointer;display:flex;flex-direction:column;gap:8px;min-height:150px;transition:transform .15s,border-color .15s}
+.pill:hover{transform:translateY(-2px);border-color:var(--accent)}
+.pill .q{font-weight:500;font-size:15px;line-height:1.3;color:var(--text)}
+.pill .nm{font-size:12px;color:var(--t3);margin-top:auto}
+.pill .lv{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.pill.hi{background:var(--accent);border-color:var(--accent)}
+.pill.hi .q,.pill.hi .lv,.pill.hi .nm{color:var(--on-accent)}
+.pill.md{border-color:var(--accent);background:var(--accent-soft)}
+.pill.md .lv{color:var(--accent)}
+.pill.lo .lv{color:var(--t3)}
+.pill.lo .q{color:var(--t2)}
+.pill[aria-expanded=true]{box-shadow:0 0 0 3px var(--focus)}
+.pills.anim .pill{animation:light .5s ease both}
+@keyframes light{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pdetail{margin-top:14px;padding:18px 22px;border-radius:var(--r-card);background:var(--surf);border:1px solid var(--card-border)}
+.pdetail h4{margin-bottom:6px}
+.pdetail p+p{margin-top:8px}
+.pdetail .line{color:var(--text);font-style:italic}
+.also details{background:var(--surf);border:1px solid var(--card-border);border-radius:var(--r-card);margin-bottom:10px}
+.also summary{cursor:pointer;padding:16px 20px;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.also summary::-webkit-details-marker{display:none}
+.also summary:after{content:"+";color:var(--accent);font-weight:700}
+.also details[open] summary:after{content:"–"}
+.also .body{padding:0 20px 18px}
+.also .body p{font-size:15px}
+.also .body p+p{margin-top:10px}
+.qlist{margin:0 0 0 22px;display:flex;flex-direction:column;gap:10px}
+.qlist li{color:var(--text);font-size:16px;padding-left:6px}
+.qlist li::marker{color:var(--accent);font-weight:700}
+.ulist{list-style:none;display:flex;flex-direction:column;gap:8px}
+.ulist li{display:flex;gap:10px;color:var(--t2)}
+.ulist li:before{content:"?";flex:none;width:22px;height:22px;border-radius:50%;border:1.5px dashed var(--warn);color:var(--warn);font-size:12px;font-weight:700;display:grid;place-items:center;margin-top:1px}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.cta{margin-top:64px;padding:36px;border-radius:var(--r-card);background:linear-gradient(120deg,var(--surf) 0%,var(--surf-h) 100%);border:1px solid var(--card-border);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.cta h2{font-size:26px;margin-bottom:6px}
+.banner{padding:12px 16px;border-radius:var(--r-ctl);border:1px solid var(--accent);background:var(--accent-soft);font-size:14px;margin-bottom:24px}
+
+/* further */
+.fcards{display:grid;grid-template-columns:1fr 1.25fr;gap:20px;align-items:start}
+.report{display:flex;gap:20px;align-items:flex-start}
+.cover{flex:none;width:96px;height:128px;border-radius:4px;background:#fff;border:1px solid var(--border);padding:10px 9px;display:flex;flex-direction:column;gap:5px;box-shadow:var(--shadow)}
+.cover i{display:block;height:4px;border-radius:2px;background:#D0D8E2}
+.cover i.h{height:7px;background:#0058AB;width:70%}
+.cover i.a{background:#1DB8F2;width:45%}
+.cover i.s{width:80%}
+.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+.contact{display:flex;gap:16px;align-items:center;padding:16px 0;border-top:1px solid var(--border);margin-top:20px}
+.avatar{flex:none;width:52px;height:52px;border-radius:50%;background:var(--accent-soft);border:1.5px solid var(--accent);display:grid;place-items:center;font-weight:700;color:var(--accent)}
+.contact b{display:block;font-weight:500}
+.contact span{display:block;font-size:14px;color:var(--t2)}
+.codebox{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.codebox code{flex:1 1 260px;font-family:ui-monospace,Consolas,monospace;font-size:13px;padding:10px 12px;border-radius:var(--r-ctl);background:var(--input-bg);border:1px solid var(--border);word-break:break-all}
+.priv{font-size:13px;color:var(--t3);margin-top:12px}
+
+/* footer */
+.foot{border-top:1px solid var(--border);padding:24px clamp(16px,5vw,64px);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--t3)}
+.foot nav{display:flex;gap:18px;flex-wrap:wrap}
+.foot button{background:none;border:0;color:var(--t2);cursor:pointer;font-size:13px;padding:0}
+.foot button:hover{color:var(--accent);text-decoration:underline}
+
+/* drawer & modal */
+.scrim{position:fixed;inset:0;background:rgba(8,12,28,.6);z-index:60;animation:fade .2s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--bg);border-left:1px solid var(--border);z-index:70;padding:24px 28px 40px;overflow:auto;box-shadow:var(--shadow);animation:slide .25s ease}
+@keyframes slide{from{transform:translateX(40px);opacity:0}to{transform:none;opacity:1}}
+.drawer .dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.drawer h2{font-size:24px}
+.drawer section{padding:18px 0;border-top:1px solid var(--border)}
+.drawer section h3{font-size:15px;font-weight:500;margin-bottom:10px;color:var(--t2)}
+.drawer .btn{width:100%;margin-top:8px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:var(--r-ctl);overflow:hidden}
+.seg button{height:38px;min-width:84px;padding:0 14px;background:none;border:0;cursor:pointer;font-size:14px;color:var(--t2)}
+.seg button+button{border-left:1px solid var(--border)}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);font-weight:700}
+.modal{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(560px,calc(100% - 32px));max-height:calc(100vh - 48px);overflow:auto;background:var(--bg);border:1px solid var(--border);border-radius:var(--r-card);padding:28px;z-index:80;box-shadow:var(--shadow)}
+.modal h2{font-size:22px;margin-bottom:10px}
+.modal .about p+p{margin-top:12px}
+.toast{position:fixed;bottom:72px;left:50%;transform:translateX(-50%);background:var(--surf-h);border:1px solid var(--accent);padding:12px 20px;border-radius:var(--r-ctl);font-size:14px;z-index:90}
+
+#print{display:none}
+
+@media (max-width:1000px){.hots{grid-template-columns:1fr}.pills{grid-template-columns:repeat(4,1fr)}.fcards{grid-template-columns:1fr}}
+@media (max-width:760px){
+  .top{padding:0 16px}.brand span{display:none}.brand img{height:24px}
+  main{padding:28px 16px 80px}
+  .grid2,.grid3,.journey,.tgrid,.twocol,.formgrid,.flips{grid-template-columns:1fr}
+  .flip{height:150px}
+  .stepper{grid-template-columns:1fr;gap:8px}.stepper:before{display:none}
+  .stp{flex-direction:row;text-align:left;gap:14px}
+  .pills{grid-template-columns:1fr 1fr}
+  .poles{gap:16px}.pole{font-size:14px}
+  .tcard2{padding:22px}
+  .actions .btn{flex:1}
+  .summary{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.ring .fg,.ring .ck{stroke-dashoffset:0}}
+
+
+/* ===== v1.1 ===== */
+body{padding-bottom:56px}
+.foot{position:fixed;left:0;right:0;bottom:0;z-index:25;background:var(--bg);padding:12px clamp(16px,5vw,64px);align-items:center}
+.hook blockquote{font-size:17px;line-height:1.45;color:var(--text);font-weight:500}
+.hook figcaption{margin-top:8px;display:block}
+.disc{display:flex;margin-top:10px}
+.sumline b{color:var(--text)}
+.hots{display:grid;grid-template-columns:repeat(3,1fr);column-gap:20px;row-gap:0;margin-top:24px}
+.hot{grid-row:span 5;display:grid;grid-template-rows:subgrid;row-gap:14px;gap:14px}
+.hot .see{font-size:15px;color:var(--t2)}
+.hot .ask{align-self:stretch}
+.hot .more{border-top:1px solid var(--border);padding-top:12px;align-self:start}
+.morein{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+.morein ul{margin:0 0 6px 18px;color:var(--t2);font-size:14px}
+.morein .exp{font-size:14px;color:var(--t2)}
+.morein .exp b{color:var(--text);font-weight:500}
+.evl{font-size:13px;color:var(--t3)}
+.teamq{margin-top:56px;padding:28px 32px;background:var(--surf);border:1px solid var(--card-border);border-radius:var(--r-card)}
+.teamq h2{font-size:24px;margin-bottom:18px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px}
+.mini{padding:20px 24px;border:1px solid var(--card-border);border-radius:var(--r-card)}
+.mini h3{font-size:17px;margin-bottom:10px}
+.mini details{border-top:1px solid var(--border)}
+.mini summary{cursor:pointer;padding:10px 0;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.mini summary::-webkit-details-marker{display:none}
+.mini summary:after{content:"+";color:var(--accent);font-weight:700}
+.mini details[open] summary:after{content:"–"}
+.mini .body{padding:0 0 12px}
+.mini .body p{font-size:14px}
+img.avatar{display:block;width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);background:var(--surf);flex:none}
+img.avatar.lg{width:76px;height:76px}
+.cta{justify-content:flex-start}
+.cta .ctat{flex:1 1 280px}
+.cta .ctat p{margin-top:4px}
+.fstack{display:flex;flex-direction:column;gap:20px}
+.fstack .card{padding:28px}
+.fstack h2{font-size:24px}
+.talkhead{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;flex-wrap:wrap}
+.talkhead>div:first-child{flex:1 1 280px}
+.talk .contact{border-top:0;margin-top:0;padding:0;flex:0 1 auto}
+.link.dl{display:inline-flex;align-items:center;gap:8px;font-size:14px}
+@media (max-width:1000px){.hots{grid-template-columns:1fr;row-gap:20px}.hot{grid-row:auto;display:flex;flex-direction:column}}
+@media (max-width:760px){
+  body{padding-bottom:48px}
+  .foot{padding:10px 16px;justify-content:center}.foot .copy{display:none}.foot nav{gap:18px;justify-content:center;flex-wrap:nowrap;white-space:nowrap}.foot nav button:first-child{display:none}
+  .minis{grid-template-columns:1fr}.teamq{padding:22px}
+  .toast{bottom:60px}
+}
+/* print */
+@media print{
+  @page{size:A4;margin:16mm 14mm}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{background:#fff;color:#121A38;font-size:11pt}
+  .skip,#toast{display:none!important}
+  body.has-print #app{display:none!important}
+  body.has-print #print{display:block}
+}
+.pr{font-family:var(--font);color:#121A38;line-height:1.45}
+.pr .phd{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #0058AB;padding-bottom:8px;margin-bottom:18px}
+.pr .phd img{height:22px}
+.pr .phd span{font-size:9pt;color:#5A6685}
+.pr .pdemo{background:#F2B84B;color:#121A38;font-weight:700;padding:6px 10px;margin-bottom:12px;font-size:10pt}
+.pr h1{font-size:20pt;font-weight:500;margin:4px 0 6px;color:#121A38}
+.pr h2{font-size:13pt;font-weight:500;color:#0058AB;margin:18px 0 8px}
+.pr h3{font-size:12pt;font-weight:500;margin:0 0 6px;color:#121A38}
+.pr p,.pr li{color:#3B4666;font-size:10pt}
+.pr .meta{font-size:9.5pt;color:#5A6685}
+.pr .ph{border:1px solid #D0D8E2;border-left:4px solid #0058AB;padding:10px 14px;margin-bottom:10px;break-inside:avoid}
+.pr .ph .k{font-size:8.5pt;text-transform:uppercase;letter-spacing:.05em;color:#5A6685;margin-top:6px;display:block}
+.pr .ph .q{color:#121A38;font-weight:500}
+.pr table{width:100%;border-collapse:collapse;font-size:9.5pt}
+.pr th,.pr td{text-align:left;border-bottom:1px solid #D0D8E2;padding:5px 6px;vertical-align:top;color:#3B4666}
+.pr th{color:#5A6685;font-weight:500}
+.pr td.lv{font-weight:700;color:#0058AB;white-space:nowrap}
+.pr ol,.pr ul{margin-left:18px}
+.pr .src li{font-size:8.5pt;word-break:break-all}
+.pr .about p{font-size:8.5pt}
+.pr .foot2{margin-top:14px;font-size:8.5pt;color:#5A6685;border-top:1px solid #D0D8E2;padding-top:6px}
+.pr .avoid{break-inside:avoid}
+
+/* ===== v1.2 pillars: one integrated model, no ranking ===== */
+.pills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.pill{cursor:default;min-height:0;background:var(--surf);border:1px solid var(--card-border);padding:18px 18px 16px;gap:6px}
+.pill:hover{transform:none;border-color:var(--card-border)}
+.pill.linked{border-color:var(--accent)}
+.pill .nm{margin-top:0;font-size:12px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.pill .q{font-size:17px}
+.pill .note{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--t2);margin-top:6px;line-height:1.4}
+.pill .dots{display:inline-flex;gap:4px;flex:none}
+.pill .dots i{font-style:normal;width:22px;height:22px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-size:12px;font-weight:700;display:grid;place-items:center}
+.hot .nomore{border-top:1px solid var(--border)}
+
+/* ===== v1.3 ===== */
+.pill{gap:4px}
+.pill .kk{margin-top:10px}
+.pill .note{display:block;margin-top:0;font-size:15px;color:var(--text);line-height:1.45}
+.pill .from{display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:12px;font-size:13px;color:var(--t3)}
+.pill .from i{font-style:normal;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--accent);color:var(--accent);font-size:11px;font-weight:700;display:grid;place-items:center}
+.foot .ver{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:default}
+.foot .ver:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.cap{font-size:13px}
+.brand span,.field .opt{font-weight:400}
+
+/* ===== v1.4 ===== */
+.ticks{flex-direction:row;flex-wrap:wrap;gap:12px 32px}
+
+</style>
+</head>
+<body>
+<a class="skip" id="skip" href="#main">Skip to content</a>
+<div id="app"></div>
+<div id="print"></div>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<script>
+const LOGO = "data:image/png;base64,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";
+const LOGO_LIGHT = "data:image/png;base64,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";
+const ESTHER = "data:image/jpeg;base64,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";
+/* ====== CONFIG ====== */
+const CONFIG = {
+  version: "1.4",
+  contentDate: ["October 2026", "Oktober 2026"],
+  contact: { name: "Esther Ochoa", initials: "EO", role: ["Director, Capgemini Invent", "Director, Capgemini Invent"], email: "esther.ochoa@capgemini.com" },
+  privacyUrl: "",            // set to the Capgemini privacy notice URL once confirmed by Legal
+  storageKey: "pcn-draft-v2",
+  maxMailto: 1800,
+  maxName: 60
+};
+
+/* ====== I18N (UI texts) ====== */
+const U = {
+  "brand": ["PLM Change Navigator", "PLM Change Navigator"],
+  "skip": ["Skip to content", "Zum Inhalt springen"],
+  "settings": ["Settings", "Einstellungen"],
+  "toLight": ["Light mode", "Heller Modus"],
+  "toDark": ["Dark mode", "Dunkler Modus"],
+  "lang": ["Language", "Sprache"],
+  "act1": ["Your transformation", "Ihre Transformation"],
+  "act2": ["Your trade-offs", "Ihre Abwägungen"],
+  "act3": ["Your change profile", "Ihr Change-Profil"],
+  "stepOf": ["Step {n} of 3 · {name}", "Schritt {n} von 3 · {name}"],
+  "back": ["Back", "Zurück"],
+  "next": ["Continue", "Weiter"],
+  "cs": ["Can't say", "Kann ich nicht sagen"],
+  "optional": ["optional", "optional"],
+  "select": ["Select…", "Auswählen …"],
+
+  "w.h1": ["See the people side of your PLM transformation", "Sehen Sie die menschliche Seite Ihrer PLM-Transformation"],
+  "w.lead": ["Product Lifecycle Management (PLM) changes how people develop and build products. In 8 minutes, see where they will struggle – and what to discuss next.", "Product Lifecycle Management (PLM) verändert, wie Menschen Produkte entwickeln und bauen. Sehen Sie in 8 Minuten, wo sie sich schwertun werden – und was Sie als Nächstes besprechen sollten."],
+  "w.s1": ["Type, phase and size.", "Art, Phase und Größe."],
+  "w.s2": ["Seven quick trade-offs.", "Sieben schnelle Abwägungen."],
+  "w.s3": ["Three hotspots and questions for your team.", "Drei Brennpunkte und Fragen für Ihr Team."],
+  "w.step": ["Step {n}", "Schritt {n}"],
+  "w.t1": ["No contact details needed.", "Keine Kontaktdaten nötig."],
+  "w.t2": ["Your answers stay on your device.", "Ihre Antworten bleiben auf Ihrem Gerät."],
+  "w.t3": ["A quick orientation, not an audit.", "Eine schnelle Orientierung, kein Audit."],
+  "w.name": ["How should we address you?", "Wie dürfen wir Sie ansprechen?"],
+  "w.nameph": ["Your name", "Ihr Name"],
+  "w.namehelp": ["Optional. Stays on your device.", "Optional. Bleibt auf Ihrem Gerät."],
+  "w.start": ["Start", "Starten"],
+  "w.noname": ["Start without a name", "Ohne Namen starten"],
+  "w.resume": ["Continue where you left off", "Dort weitermachen, wo Sie aufgehört haben"],
+
+  "hi": ["Let's start, {name}.", "Los geht's, {name}."],
+  "hi0": ["Let's start.", "Los geht's."],
+  "q1.sub": ["Pick up to three.", "Bis zu drei auswählen."],
+  "q1.count": ["{n} of 3 selected", "{n} von 3 ausgewählt"],
+  "scope.h": ["Size and reach", "Größe und Reichweite"],
+  "scope.sub": ["Rough answers are fine.", "Grobe Antworten genügen."],
+  "q7.sub": ["Pick all that apply.", "Alles Zutreffende auswählen."],
+
+  "a1.label": ["Step 1 done", "Schritt 1 erledigt"],
+  "a1.thanks": ["Thanks, {name}.", "Danke, {name}."],
+  "a1.thanks0": ["Thanks.", "Danke."],
+  "a1.move": ["Your transformation covers {types} in the {phase} phase{scale}.", "Ihre Transformation umfasst {types} in der {phase}{scale}."],
+  "a1.hint": ["Next: seven quick trade-offs.", "Als Nächstes: sieben schnelle Abwägungen."],
+
+  "t.of": ["Trade-off {i} of {n}", "Abwägung {i} von {n}"],
+  "t.q": ["Question {i} of {n}", "Frage {i} von {n}"],
+  "t.help": ["Where does your programme stand today? There's no right answer.", "Wo steht Ihr Programm heute? Es gibt kein Richtig oder Falsch."],
+  "t.place": ["Pick a point, or “Can't say”", "Wählen Sie einen Punkt oder „Kann ich nicht sagen“"],
+  "t.p1": ["Clearly: {x}", "Eindeutig: {x}"],
+  "t.p2": ["Rather: {x}", "Eher: {x}"],
+  "t.p3": ["In between", "Dazwischen"],
+
+  "tm.ready": ["Your profile is ready.", "Ihr Profil ist fertig."],
+  "tm.go": ["Show my profile", "Profil anzeigen"],
+
+  "rv.h": ["{name}, here are your three hotspots.", "{name}, hier sind Ihre drei Brennpunkte."],
+  "rv.h0": ["Here are your three hotspots.", "Hier sind Ihre drei Brennpunkte."],
+  "rv.skip": ["Skip", "Überspringen"],
+  "rv.go": ["See my profile", "Profil ansehen"],
+
+  "r.h": ["{name}, your change profile", "{name}, Ihr Change-Profil"],
+  "r.h0": ["Your change profile", "Ihr Change-Profil"],
+  "r.disc": ["Based on your answers. A quick orientation, not an audit.", "Basiert auf Ihren Antworten. Eine schnelle Orientierung, kein Audit."],
+  "r.sum": ["Your transformation combines {types} in the {phase} phase.", "Ihre Transformation verbindet {types} in der {phase}."],
+  "r.sum1": ["Your transformation covers {type} in the {phase} phase.", "Ihre Transformation umfasst {type} in der {phase}."],
+  "r.hotsH": ["Three hotspots need attention now", "Drei Brennpunkte brauchen jetzt Aufmerksamkeit"],
+  "r.hot": ["Hotspot {n}", "Brennpunkt {n}"],
+  "r.often": ["Often seen in practice", "Häufig in der Praxis"],
+  "r.see": ["What often happens", "Was oft passiert"],
+  "r.why": ["Why you see this", "Warum Sie das sehen"],
+  "r.more": ["Why you see this", "Warum Sie das sehen"],
+  "r.ask": ["Question for your steering meeting", "Frage für Ihren Lenkungskreis"],
+  "r.pil": ["Seven areas, one integrated approach", "Sieben Handlungsfelder, ein integrierter Ansatz"],
+  "r.pilsub": ["All seven matter equally and work together. Here is what each one needs in your situation.", "Alle sieben sind gleich wichtig und wirken zusammen. Das braucht jedes Feld in Ihrer Situation."],
+  "pl.need": ["What you need here", "Was Sie hier brauchen"],
+  "pl.from": ["Linked to hotspot {n}", "Verbunden mit Brennpunkt {n}"],
+  "p.note": ["What you need here", "Was Sie hier brauchen"],
+  "r.also": ["Also relevant", "Auch relevant"],
+  "r.unclear": ["Still to clarify", "Noch zu klären"],
+  "r.unclearI": ["You answered “Can't say” here:", "Hier haben Sie „Kann ich nicht sagen“ gewählt:"],
+  "r.team": ["Questions for your team", "Fragen für Ihr Team"],
+  "r.cta": ["Want to talk it through?", "Möchten Sie darüber sprechen?"],
+  "r.ctaT": ["A 30-minute call on what to do about your three hotspots. No preparation needed.", "Ein 30-minütiges Gespräch darüber, was Sie bei Ihren drei Brennpunkten tun können. Keine Vorbereitung nötig."],
+  "r.further": ["Next steps", "Nächste Schritte"],
+  "r.fromcode": ["Opened from a profile code", "Aus einem Profilcode geöffnet"],
+  "r.edit": ["Change my answers", "Antworten ändern"],
+
+  "f.h": ["Next steps", "Nächste Schritte"],
+  "f.talk": ["Talk it through with us", "Lassen Sie uns sprechen"],
+  "f.offer": ["A 30-minute call about your three hotspots. No preparation needed.", "Ein 30-minütiges Gespräch über Ihre drei Brennpunkte. Keine Vorbereitung nötig."],
+  "f.name": ["Name", "Name"], "f.company": ["Company", "Unternehmen"], "f.role": ["Role", "Rolle"], "f.time": ["When suits you?", "Wann passt es Ihnen?"],
+  "f.t1": ["In the next two weeks", "In den nächsten zwei Wochen"], "f.t2": ["This month", "Diesen Monat"], "f.t3": ["Next quarter", "Nächstes Quartal"], "f.t4": ["No rush", "Ohne Eile"],
+  "f.mail": ["Request a call", "Gespräch anfragen"],
+  "f.copy": ["Copy email text", "E-Mail-Text kopieren"],
+  "f.contact": ["Your contact", "Ihre Ansprechperson"],
+  "f.reply": ["We usually reply within two business days.", "Wir antworten in der Regel innerhalb von zwei Werktagen."],
+  "f.priv": ["Opens your email app with a ready message. Nothing is sent until you click send.", "Öffnet Ihr E-Mail-Programm mit einer fertigen Nachricht. Gesendet wird erst, wenn Sie auf Senden klicken."],
+  "f.rep": ["Save for later", "Für später sichern"],
+  "f.code": ["Your profile code", "Ihr Profilcode"],
+  "f.codeT": ["Use it to reopen your profile later. It's included in the email.", "Damit öffnen Sie Ihr Profil später wieder. Er ist in der E-Mail enthalten."],
+  "f.copycode": ["Copy code", "Code kopieren"],
+  "f.xlsx": ["Download your answers (Excel)", "Antworten als Excel herunterladen"],
+  "f.backres": ["Back to my profile", "Zurück zu meinem Profil"],
+  "f.over": ["Start over", "Neu beginnen"],
+  "f.manual": ["Copy this text into an email to {email}.", "Kopieren Sie diesen Text in eine E-Mail an {email}."],
+
+  "c.h": ["Open a profile code", "Profilcode öffnen"],
+  "c.t": ["Paste a profile code to see its profile.", "Fügen Sie einen Profilcode ein, um das Profil zu sehen."],
+  "c.open": ["Open", "Öffnen"],
+  "c.err": ["This code can't be read. Please check it.", "Dieser Code kann nicht gelesen werden. Bitte prüfen Sie ihn."],
+
+  "s.theme": ["Theme", "Darstellung"], "s.dark": ["Dark", "Dunkel"], "s.light": ["Light", "Hell"],
+  "s.name": ["Your name", "Ihr Name"],
+  "s.nameT": ["Stays on your device. Leave empty for neutral wording.", "Bleibt auf Ihrem Gerät. Leer lassen für neutrale Texte."],
+  "s.show": ["Showcase data", "Showcase-Daten"],
+  "s.showT": ["For presentations: a typical example, clearly marked as demo data.", "Für Präsentationen: ein typisches Beispiel, deutlich als Demo-Daten markiert."],
+  "s.ref": ["Load reference scenario", "Referenzszenario laden"],
+  "s.close": ["Close", "Schließen"],
+  "s.ver": ["Version {v} · Content as of {d}", "Version {v} · Inhaltsstand {d}"],
+
+  "m.replH": ["Replace your answers?", "Antworten ersetzen?"],
+  "m.replT": ["Your answers will be replaced by the reference scenario.", "Ihre Antworten werden durch das Referenzszenario ersetzt."],
+  "m.repl": ["Replace", "Ersetzen"],
+  "m.overH": ["Start over?", "Neu beginnen?"],
+  "m.overT": ["This deletes your answers and your name on this device.", "Ihre Antworten und Ihr Name werden auf diesem Gerät gelöscht."],
+  "m.over": ["Delete and start over", "Löschen und neu beginnen"],
+  "m.cancel": ["Cancel", "Abbrechen"],
+
+  "demo": ["Demo data – not a real assessment", "Demo-Daten – keine echte Auswertung"],
+  "demo.clear": ["Clear demo data", "Demo-Daten löschen"],
+  "foot.ver": ["v{v}", "v{v}"],
+  "foot.code": ["Open a profile code", "Profilcode öffnen"],
+  "foot.priv": ["Privacy", "Datenschutz"],
+  "foot.about": ["About Capgemini Invent", "Über Capgemini Invent"],
+  "priv.h": ["Privacy", "Datenschutz"],
+  "priv.t": ["Everything runs in your browser. Your answers stay on your device, and this page sends nothing. If you request a call, your email app opens with a message you can check first. Capgemini Invent uses what you send only to arrange and prepare the call. See the Capgemini privacy notice on capgemini.com.",
+             "Alles läuft in Ihrem Browser. Ihre Antworten bleiben auf Ihrem Gerät, und diese Seite sendet nichts. Wenn Sie ein Gespräch anfragen, öffnet sich Ihr E-Mail-Programm mit einer Nachricht, die Sie vorher prüfen können. Capgemini Invent nutzt Ihre Angaben nur, um das Gespräch zu vereinbaren und vorzubereiten. Siehe die Datenschutzhinweise von Capgemini auf capgemini.com."],
+  "priv.link": ["Capgemini privacy notice", "Datenschutzhinweise von Capgemini"],
+  "about.h": ["About Capgemini Invent", "Über Capgemini Invent"],
+
+  "toast.copied": ["Copied.", "Kopiert."],
+  "toast.demo": ["Reference scenario loaded.", "Referenzszenario geladen."],
+  "toast.mail": ["Your email app should open now. If not, use “Copy email text”.", "Ihr E-Mail-Programm sollte sich jetzt öffnen. Falls nicht: „E-Mail-Text kopieren“."],
+  "toast.xlsx": ["Excel file downloaded.", "Excel-Datei heruntergeladen."],
+
+  "p.for": ["Prepared for {name}", "Erstellt für {name}"],
+  "p.contact": ["Contact", "Kontakt"],
+  "p.code": ["Profile code", "Profilcode"],
+  "p.area": ["Area", "Handlungsfeld"], "p.q": ["Question", "Leitfrage"],
+
+  "x.profile": ["Profile", "Profil"], "x.answers": ["Answers", "Antworten"],
+  "x.date": ["Date", "Datum"], "x.version": ["Version", "Version"], "x.hotspot": ["Hotspot", "Brennpunkt"],
+  "x.q": ["Question", "Frage"], "x.a": ["Answer", "Antwort"], "x.area": ["Change area", "Handlungsfeld"],
+
+  "mail.subj": ["PLM Change Navigator: call request", "PLM Change Navigator: Gesprächsanfrage"],
+  "mail.hello": ["Hello Ms Ochoa,", "Guten Tag Frau Ochoa,"],
+  "mail.intro": ["I've completed the PLM Change Navigator and would like a short call.", "ich habe den PLM Change Navigator ausgefüllt und würde gern ein kurzes Gespräch vereinbaren."],
+  "mail.move": ["Our transformation: {types}; phase: {phase}; status: {pulse}", "Unsere Transformation: {types}; Phase: {phase}; Stand: {pulse}"],
+  "mail.scale": ["Size: {users}; {sites}", "Größe: {users}; {sites}"],
+  "mail.hots": ["Hotspots:", "Brennpunkte:"],
+  "mail.code": ["Profile code: {code}", "Profilcode: {code}"],
+  "mail.bye": ["Best regards", "Viele Grüße"]
+};
+
+/* ====== CONTENT ====== */
+const Q1 = [
+  {id:"legacy_exit", t:["Replacing a legacy system","Altsystem ablösen"], d:["Old system is out of support or can't be upgraded.","Kein Support mehr oder kein Upgrade möglich."], ph:["replacing a legacy system","die Ablösung eines Altsystems"], ic:"M12 3v8M6.3 7.3a8 8 0 1 0 11.4 0"},
+  {id:"saas", t:["Moving to the cloud (SaaS)","Wechsel in die Cloud (SaaS)"], d:["From on-premise to a cloud service with regular vendor updates.","Von On-Premise zu einem Cloud-Service mit regelmäßigen Updates."], ph:["a move to the cloud","einen Wechsel in die Cloud"], ic:"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.6 1.5A3.3 3.3 0 0 0 7 18z"},
+  {id:"standard", t:["Moving to standard (out-of-the-box)","Wechsel zum Standard (Out-of-the-Box)"], d:["Fewer custom solutions, more vendor standard.","Weniger Sonderlösungen, mehr Standard."], ph:["a move to standard","einen Wechsel zum Standard"], ic:"M4 7l8-4 8 4-8 4-8-4zM4 7v10l8 4 8-4V7M12 11v10"},
+  {id:"consolidation", t:["Consolidating systems or sites","Systeme oder Standorte zusammenführen"], d:["Several systems, sites or units onto one platform.","Mehrere Systeme, Standorte oder Einheiten auf eine Plattform."], ph:["a consolidation","eine Konsolidierung"], ic:"M4 5l7 7-7 7M20 12h-9M4 12h3"},
+  {id:"first_plm", t:["Introducing PLM for the first time","PLM erstmals einführen"], d:["From files and Excel to real PLM.","Von Dateien und Excel zu echtem PLM."], ph:["a first PLM introduction","eine erstmalige PLM-Einführung"], ic:"M12 2l2.6 6.6L21 9l-5 4.4L17.5 20 12 16.6 6.5 20 8 13.4 3 9l6.4-.4z"},
+  {id:"erp_recut", t:["Re-aligning PLM and ERP","PLM und ERP neu aufteilen"], d:["Often with S/4HANA: who owns BOMs and changes.","Oft mit S/4HANA: Wem gehören Stücklisten und Änderungen?"], ph:["a PLM–ERP re-alignment","eine Neuaufteilung von PLM und ERP"], ic:"M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"},
+  {id:"ai", t:["Adding AI to PLM","KI ins PLM bringen"], d:["AI assistants or agents in engineering.","KI-Assistenten oder -Agenten im Engineering."], ph:["AI in PLM","KI im PLM"], ic:"M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"},
+  {id:"other", t:["Something else","Etwas anderes"], d:["None of these.","Nichts davon."], ph:["another kind of change","eine andere Art von Veränderung"], ic:"M5 12h.01M12 12h.01M19 12h.01"}
+];
+const PHASES = [
+  {id:"considering", t:["Setting the strategy","Strategie festlegen"], ph:["strategy","Strategiephase"]},
+  {id:"selection", t:["Choosing a platform","Plattform auswählen"], ph:["platform selection","Auswahlphase"]},
+  {id:"design", t:["Designing processes","Prozesse gestalten"], ph:["design","Designphase"]},
+  {id:"rollout", t:["Building and rolling out","Umsetzen und ausrollen"], ph:["rollout","Rolloutphase"]},
+  {id:"golive", t:["Going live","Go-live"], ph:["go-live","Go-live-Phase"]},
+  {id:"running", t:["Live and improving","Im Betrieb"], ph:["operations","Betriebsphase"]}
+];
+const SINGLE = {
+  Q3: {h:["How is it going?","Wie läuft es gerade?"], o:[["on_track",["On track","Nach Plan"]],["friction",["Some friction","Etwas holprig"]],["pressure",["Under pressure","Unter Druck"]]], cs:true},
+  Q4: {h:["How many people will work differently?","Wie viele Menschen werden anders arbeiten?"], o:[["u1",["Fewer than 250","Weniger als 250"]],["u2",["250–1,000","250–1.000"]],["u3",["1,000–5,000","1.000–5.000"]],["u4",["More than 5,000","Mehr als 5.000"]]], cs:true},
+  Q5: {h:["How far does it reach?","Wie weit reicht es?"], o:[["s1",["One site","Ein Standort"]],["s2",["Several sites, one country","Mehrere Standorte, ein Land"]],["s3",["Several countries","Mehrere Länder"]]], cs:true},
+  Q6: {h:["How do you build products?","Wie entstehen Ihre Produkte?"], o:[["eto",["Engineer-to-order (every project is unique)","Engineer-to-Order (jedes Projekt einzigartig)"]],["cto",["Configure-to-order (variants of a base)","Configure-to-Order (Varianten einer Basis)"]],["series",["Series products","Serienprodukte"]],["mixed",["A mix","Gemischt"]]], cs:true},
+  C1: {h:["Is there a fixed switch-off date for the old system?","Gibt es einen festen Abschalttermin für das Altsystem?"], o:[["d12",["Yes, within 12 months","Ja, in den nächsten 12 Monaten"]],["d24",["Yes, in 12–24 months","Ja, in 12–24 Monaten"]],["later",["Later, or no fixed date","Später oder kein fester Termin"]]], cs:true},
+  TM: {h:["When does the people side start in your plan?","Wann startet die menschliche Seite in Ihrem Plan?"], sub:["Change, communication and training.","Change, Kommunikation und Schulung."], o:[["start",["From the start","Von Anfang an"]],["design",["During design","Während des Designs"]],["late",["Shortly before go-live","Kurz vor dem Go-live"]],["notyet",["Not planned yet","Noch nicht geplant"]],["problems",["When problems came up","Als Probleme auftraten"]]], cs:true}
+};
+const Q2H = ["Where are you today?","Wo stehen Sie heute?"];
+const Q1H = ["What kind of transformation is it?","Um welche Art von Transformation geht es?"];
+const Q7 = {h:["Who will work differently?","Wer wird anders arbeiten?"], o:[
+  ["design",["Design engineering","Konstruktion und Entwicklung"]],["sim",["Simulation and testing","Simulation und Test"]],["mfg_eng",["Manufacturing engineering","Fertigungsplanung"]],["prod",["Production","Produktion"]],["proc",["Procurement and suppliers","Einkauf und Lieferanten"]],["qual",["Quality","Qualität"]],["service",["Service and after-sales","Service und After-Sales"]],["sales",["Sales and configuration","Vertrieb und Konfiguration"]],["fin",["Finance and controlling","Finanzen und Controlling"]],["it",["IT","IT"]]]};
+const Q8 = {h:["Which PLM platform?","Welche PLM-Plattform?"], o:[
+  ["tc",["Siemens Teamcenter / Teamcenter X","Siemens Teamcenter / Teamcenter X"]],["wc",["PTC Windchill / Windchill+","PTC Windchill / Windchill+"]],["dx",["Dassault 3DEXPERIENCE (ENOVIA, CATIA)","Dassault 3DEXPERIENCE (ENOVIA, CATIA)"]],["sap",["SAP PLM","SAP PLM"]],["con",["CONTACT Elements / CIM Database","CONTACT Elements / CIM Database"]],["aras",["Aras Innovator","Aras Innovator"]],["adsk",["Autodesk Vault / Fusion Manage","Autodesk Vault / Fusion Manage"]],["prof",["PRO.FILE (Revalize)","PRO.FILE (Revalize)"]],["agile",["Oracle Agile PLM","Oracle Agile PLM"]],["ofc",["Oracle Fusion Cloud PLM","Oracle Fusion Cloud PLM"]],["arena",["Arena (PTC)","Arena (PTC)"]],["multi",["Several platforms","Mehrere Plattformen"]],["oth",["Other","Andere"]],["nd",["Not decided yet","Noch nicht entschieden"]]]};
+const TENSIONS = {
+  T1:{h:["Standard or own solutions?","Standard oder eigene Lösungen?"], a:["We adapt to the standard","Wir passen uns dem Standard an"], b:["Our own solutions are part of our edge","Eigene Lösungen sind Teil unseres Vorsprungs"]},
+  T2:{h:["Who leads the programme?","Wer führt das Programm?"], a:["Mainly IT","Vor allem die IT"], b:["Mainly engineering and business","Vor allem Engineering und Business"]},
+  T3:{h:["Why change – as {g} hear it","Warum der Wandel – wie es {gD} ankommt"], a:["To cut cost and IT effort","Um Kosten und IT-Aufwand zu senken"], b:["To make {gWork} better","Um {gWork} zu verbessern"]},
+  T4:{h:["What do {g} expect?","Was erwartet {gN}?"], a:["Less work","Weniger Aufwand"], b:["More work","Mehr Aufwand"]},
+  T5:{h:["How much change at once?","Wie viel Wandel auf einmal?"], a:["PLM is the main change right now","PLM ist gerade die wichtigste Veränderung"], b:["PLM is one of several big changes","PLM ist eine von mehreren großen Veränderungen"]},
+  T6:{h:["Control over product data","Kontrolle über Produktdaten"], a:["Stays with the same people","Bleibt bei denselben Personen"], b:["Moves between teams or sites","Wandert zwischen Teams oder Standorten"]},
+  T7:{h:["What counts as success?","Was zählt als Erfolg?"], a:["Go-live on time and budget","Go-live in Zeit und Budget"], b:["People really working in the new system","Menschen arbeiten wirklich im neuen System"]},
+  C2:{h:["Expectations of AI","Erwartungen an KI"], a:["Realistic and shared","Realistisch und geteilt"], b:["Split into fans and sceptics","Gespalten in Begeisterte und Skeptische"]}
+};
+const SCALE_PH = {
+  u1:["fewer than 250 people","weniger als 250 Personen"], u2:["250–1,000 people","250–1.000 Personen"], u3:["1,000–5,000 people","1.000–5.000 Personen"], u4:["more than 5,000 people","mehr als 5.000 Personen"],
+  s1:["at one site","an einem Standort"], s2:["across several sites in one country","an mehreren Standorten in einem Land"], s3:["across several countries","über mehrere Länder"]
+};
+
+/* Seven-pillar model (validated wording, simplified for clients) */
+const PILLARS = [
+  {id:"P1", n:"OCM Strategy", q:["Where are we going?","Wohin wollen wir?"], l:["Agree the why and the rules before the system sets them for you.","Klären Sie das Warum und die Spielregeln, bevor das System sie festlegt."]},
+  {id:"P2", n:"Foundation", q:["Who is affected?","Wer ist betroffen?"], l:["Knowing early who gives something up is the cheapest risk reduction.","Früh zu wissen, wer etwas aufgibt, ist die günstigste Risikoreduktion."]},
+  {id:"P3", n:"Value Creating", q:["How do we know it's working?","Woran erkennen wir, dass es wirkt?"], l:["If you can't see adoption, you can't steer it.","Was Sie nicht sehen, können Sie nicht steuern."]},
+  {id:"P4", n:"Communication & Engagement", q:["How do we create clarity?","Wie schaffen wir Klarheit?"], l:["Engineers need to see it work, not more slides.","Das Engineering will sehen, dass es funktioniert – nicht mehr Folien."]},
+  {id:"P5", n:"Enablement", q:["How do we build skills?","Wie bauen wir Fähigkeiten auf?"], l:["Knowing where to click isn't knowing how to work.","Wissen, wo man klickt, ist nicht wissen, wie man arbeitet."]},
+  {id:"P6", n:"Change Community", q:["How do we anchor change?","Wie verankern wir den Wandel?"], l:["Your most influential people may not be on the org chart.","Die einflussreichsten Menschen stehen oft nicht im Organigramm."]},
+  {id:"P7", n:"Leadership & Project Team", q:["Who drives the change?","Wer treibt den Wandel?"], l:["If it's run as an IT project, it's received as one.","Als IT-Projekt geführt, wird es auch als IT-Projekt wahrgenommen."]}
+];
+
+const HOOK = { f:["Digital masters – organizations with a high level of mastery across digital and leadership capabilities – are widening the gap with their competitors.","Organisationen, die es schaffen, digitale Fähigkeiten und Führungskompetenzen geschickt miteinander zu vereinen, vergrößern den Abstand zu ihren Wettbewerbern."], s:["Capgemini Research Institute – Digital Mastery 2020","Capgemini Research Institute – Digital Mastery 2020"] };
+
+/* What each area needs, per hotspot (primary and supporting areas). Client need, not our method. */
+const NEEDS = {
+  H1:{P1:["A clear rule for which special solutions stay – and why.","Eine klare Regel, welche Sonderlösungen bleiben – und warum."],
+      P2:["Knowing who loses a solution they built and trust.","Wissen, wer eine selbst gebaute, bewährte Lösung verliert."],
+      P4:["Showing what the standard gives back, not only what it takes.","Zeigen, was der Standard zurückgibt – nicht nur, was er nimmt."]},
+  H2:{P1:["Change built into the plan now, not added before go-live.","Change jetzt im Plan verankern – nicht kurz vor dem Go-live ergänzen."],
+      P7:["Leaders who bring people topics into every design decision.","Führungskräfte, die Menschen-Themen in jede Designentscheidung einbringen."],
+      P5:["Learning that starts with the new way of working, not the clicks.","Lernen, das bei der neuen Arbeitsweise ansetzt, nicht bei den Klicks."]},
+  H3:{P2:["A clear view of whose influence shrinks – and whose grows.","Ein klarer Blick darauf, wessen Einfluss schrumpft – und wessen wächst."],
+      P7:["A real design role for the experts who lose the most.","Eine echte Rolle im Design für die Fachleute, die am meisten abgeben."],
+      P4:["Open talk about roles, before rumours fill the gap.","Offen über Rollen sprechen, bevor Gerüchte die Lücke füllen."]},
+  H4:{P3:["Proof that the new way really saves time.","Belege, dass die neue Arbeitsweise wirklich Zeit spart."],
+      P4:["Early wins {g} can see in their own daily work.","Frühe Erfolge, die {gN} im eigenen Alltag sieht."],
+      P5:["Help at the moment of work, not only in training.","Hilfe im Arbeitsalltag, nicht nur in der Schulung."]},
+  H5:{P1:["One sequence for all changes that hit the same people.","Eine Reihenfolge für alle Veränderungen, die dieselben Menschen treffen."],
+      P2:["Knowing which teams carry the most change at once.","Wissen, welche Teams gleichzeitig den meisten Wandel tragen."],
+      P4:["One story that connects the changes, not five separate ones.","Eine Geschichte, die die Veränderungen verbindet – statt fünf einzelner."]},
+  H6:{P1:["Protected time for the people side, even under deadline pressure.","Geschützte Zeit für die menschliche Seite, auch unter Termindruck."],
+      P5:["Learning focused on what changes most, in the time you have.","Lernen, fokussiert auf das, was sich am stärksten ändert – in der Zeit, die bleibt."],
+      P7:["Leaders who say clearly what will not be cut.","Führung, die klar sagt, was nicht gekürzt wird."]},
+  H7:{P3:["A few signals that show whether people really use the system.","Wenige Signale, die zeigen, ob Menschen das System wirklich nutzen."],
+      P6:["Key users who report workarounds early.","Key User, die Workarounds früh melden."]},
+  H8:{P6:["A key-user network that carries each new release.","Ein Key-User-Netzwerk, das jedes neue Release trägt."],
+      P5:["Learning that keeps pace with every release.","Lernen, das mit jedem Release Schritt hält."],
+      P3:["Adoption tracked after go-live, release by release.","Akzeptanz nach dem Go-live verfolgen, Release für Release."]},
+  H9:{P7:["Visible ownership by engineering and business leaders.","Sichtbare Verantwortung durch Führungskräfte aus Engineering und Business."],
+      P1:["A “why” that speaks to engineering, not only to IT.","Ein „Warum“, das das Engineering anspricht, nicht nur die IT."],
+      P4:["Messages from engineering leaders, not only from the project.","Botschaften von Engineering-Führungskräften, nicht nur vom Projekt."]},
+  H10:{P4:["Honest, shared expectations of what AI will do in year one.","Ehrliche, gemeinsame Erwartungen daran, was KI im ersten Jahr leistet."],
+      P2:["Knowing where the fans and the sceptics are.","Wissen, wo die Begeisterten und die Skeptischen sind."],
+      P5:["Hands-on experience with AI, so opinions rest on real use.","Praktische Erfahrung mit KI, damit Meinungen auf echter Nutzung beruhen."]},
+  H11:{P2:["Knowing what each team loses when its own files go away.","Wissen, was jedes Team verliert, wenn die eigenen Dateien wegfallen."],
+      P5:["Practice with real data, so the new habit sticks.","Übung mit echten Daten, damit die neue Gewohnheit bleibt."],
+      P3:["Checking whether Excel lists quietly come back.","Prüfen, ob Excel-Listen unbemerkt zurückkommen."]}
+};
+/* What each area needs in every PLM transformation (used when no hotspot links to it). */
+const NEED_BASE = {
+  P1:["A shared “why” and clear rules for the change.","Ein gemeinsames „Warum“ und klare Regeln für den Wandel."],
+  P2:["A clear view of who is affected and how ready they are.","Ein klarer Blick darauf, wer betroffen ist und wie bereit die Menschen sind."],
+  P3:["Simple signals that show the change is working.","Einfache Signale, die zeigen, dass der Wandel wirkt."],
+  P4:["Regular, honest messages that {g} find credible.","Regelmäßige, ehrliche Botschaften, die {gN} glaubwürdig findet."],
+  P5:["Skills for the new way of working, not just the new screens.","Fähigkeiten für die neue Arbeitsweise, nicht nur für neue Masken."],
+  P6:["People in every team who carry the change locally.","Menschen in jedem Team, die den Wandel vor Ort tragen."],
+  P7:["Leaders who visibly own how people will work.","Führungskräfte, die sichtbar für die neue Arbeitsweise einstehen."]
+};
+
+const HOTSPOTS = {
+  H1:{t:["Special solutions are going away","Sonderlösungen fallen weg"],
+      see:["Moving to standard takes away solutions people built and trust. Resistance is rarely about the software – it's about losing what made their work effective.","Der Weg zum Standard nimmt Lösungen weg, die Menschen gebaut haben und denen sie vertrauen. Widerstand gilt selten der Software – sondern dem Verlust dessen, was ihre Arbeit wirksam machte."],  q:["Which special solutions are a real edge – and who decides?","Welche Sonderlösungen sind ein echter Vorsprung – und wer entscheidet das?"], p:["P1","P2"], s:["P4"]},
+  H2:{t:["The people side starts too late","Die menschliche Seite startet zu spät"],
+      see:["Change work often starts as training just before go-live. By then, the decisions people react to are already made.","Change-Arbeit beginnt oft als Schulung kurz vor dem Go-live. Dann sind die Entscheidungen, auf die Menschen reagieren, längst gefallen."],  q:["Which decisions in the next three months will users feel most – and who speaks for them?","Welche Entscheidungen der nächsten drei Monate spüren Nutzende am stärksten – und wer spricht für sie?"], p:["P1","P7"], s:["P5"]},
+  H3:{t:["Influence is shifting","Einfluss verschiebt sich"],
+      see:["When product data moves into one system, influence moves with it. Some teams and long-time experts lose their say – a question of power, not process.","Wenn Produktdaten in ein System wandern, wandert Einfluss mit. Manche Teams und langjährige Fachleute verlieren an Gewicht – eine Machtfrage, keine Prozessfrage."],  q:["Who gives up the most influence – and are they shaping the design?","Wer gibt den meisten Einfluss ab – und gestaltet diese Gruppe das Design mit?"], p:["P2","P7"], s:["P4"]},
+  H4:{t:["{G} expect more work","{GN} erwartet mehr Arbeit"],
+      see:["The benefits of PLM often show up later, {gBen}. The extra data work lands on {g} first.","Der Nutzen von PLM zeigt sich oft später, {gBen}. Die zusätzliche Datenarbeit landet zuerst {gD}."],  q:["What would make someone {gIn} say “this saves me time” in month one?","Was müsste passieren, damit jemand {gD} im ersten Monat sagt: „Das spart mir Zeit“?"], p:["P3","P4"], s:["P5"]},
+  H5:{t:["Too much change at once","Zu viel Wandel auf einmal"],
+      see:["PLM rarely comes alone. When several big changes hit the same people, the order matters as much as the content.","PLM kommt selten allein. Treffen mehrere große Veränderungen dieselben Menschen, zählt die Reihenfolge so viel wie der Inhalt."],  q:["Which teams face more than one big change in the next 12 months?","Welche Teams trifft in den nächsten 12 Monaten mehr als eine große Veränderung?"], p:["P1","P2"], s:["P4"]},
+  H6:{t:["A deadline squeezes the people side","Termindruck verdrängt die menschliche Seite"],
+      see:["A fixed end-of-support date turns a transformation into a migration. Change work shrinks to a short training before cut-over.","Ein festes Support-Ende macht aus der Transformation eine Migration. Change-Arbeit schrumpft auf eine kurze Schulung vor der Umstellung."],  q:["What people-side work would you never cut, even under time pressure?","Auf welche Arbeit an der menschlichen Seite würden Sie auch unter Zeitdruck nie verzichten?"], p:["P1","P5"], s:["P7"]},
+  H7:{t:["Adoption nobody can see","Akzeptanz, die niemand sieht"],
+      see:["Go-live is often the last thing anyone measures. Workarounds like Excel lists then stay hidden until they're normal.","Der Go-live ist oft das Letzte, was gemessen wird. Workarounds wie Excel-Listen bleiben dann unsichtbar, bis sie normal sind."],  q:["Three months after go-live, how will you know people really use the system?","Woran erkennen Sie drei Monate nach dem Go-live, dass das System wirklich genutzt wird?"], p:["P3"], s:["P6"]},
+  H8:{t:["Change doesn't stop at go-live","Der Wandel endet nicht beim Go-live"],
+      see:["With SaaS, new releases keep coming. Without a network of key users, each one becomes a mini project – or gets ignored.","Mit SaaS kommen laufend neue Releases. Ohne ein Netzwerk von Key Usern wird jedes Release zum Mini-Projekt – oder es wird ignoriert."],  q:["Who owns the change once the project team has left?","Wer verantwortet den Wandel, wenn das Projektteam weg ist?"], p:["P6","P5"], s:["P3"]},
+  H9:{t:["Run as an IT project","Als IT-Projekt geführt"],
+      see:["When IT leads, the business often sees PLM as a system change done to them. Then nobody in engineering owns the new way of working.","Führt die IT, erlebt das Business PLM oft als Systemwechsel, den andere entschieden haben. Dann verantwortet im Engineering niemand die neue Arbeitsweise."],  q:["Which engineering leader will visibly own how people work after go-live?","Welche Führungskraft im Engineering steht sichtbar dafür ein, wie nach dem Go-live gearbeitet wird?"], p:["P7"], s:["P1","P4"]},
+  H10:{t:["AI splits the team","KI spaltet das Team"],
+      see:["AI in PLM tends to split people into fans and sceptics, with little in between. Most uses are still pilots.","KI im PLM spaltet oft in Begeisterte und Skeptische – dazwischen gibt es wenig. Die meisten Anwendungen sind noch Piloten."],  q:["What should AI do for people in year one – and what not yet?","Was soll KI im ersten Jahr für die Menschen leisten – und was noch nicht?"], p:["P4"], s:["P2","P5"]},
+  H11:{t:["Building new data habits","Neue Datengewohnheiten aufbauen"],
+      see:["Moving from files and Excel to PLM is a new habit. People lose flexibility on day one and see the benefits later.","Der Schritt von Dateien und Excel zu PLM ist eine neue Gewohnheit. Flexibilität geht am ersten Tag verloren, der Nutzen kommt später."],  q:["What do people lose on day one when their own files go away?","Was verlieren Menschen am ersten Tag, wenn die eigenen Dateien wegfallen?"], p:["P2","P5"], s:["P3"]}
+};
+
+const SIGNALS = {
+  h1_std:["You're moving to standard","Sie wechseln zum Standard"],
+  h1_saas:["You're moving to the cloud","Sie wechseln in die Cloud"],
+  h1_cons:["You're consolidating","Sie führen Systeme oder Standorte zusammen"],
+  h1_leg:["You're replacing a legacy system","Sie lösen ein Altsystem ab"],
+  h1_t5:["Your own solutions are part of your edge","Eigene Lösungen sind Teil Ihres Vorsprungs"],
+  h1_t4:["You lean towards your own solutions","Sie tendieren zu eigenen Lösungen"],
+  h1_t3:["You're between standard and own solutions","Sie stehen zwischen Standard und eigenen Lösungen"],
+  h1_eto:["You build engineer-to-order","Sie fertigen Engineer-to-Order"],
+  h2_late:["The people side starts just before go-live","Die menschliche Seite startet kurz vor dem Go-live"],
+  h2_notyet_e:["The people side isn't planned yet, while key decisions are open","Die menschliche Seite ist noch nicht geplant, wichtige Entscheidungen sind offen"],
+  h2_notyet:["The people side isn't planned yet","Die menschliche Seite ist noch nicht geplant"],
+  h2_problems:["The people side started when problems came up","Die menschliche Seite kam erst mit den Problemen"],
+  h2_design:["The people side starts during design","Die menschliche Seite startet im Design"],
+  h2_pressure:["The programme is under pressure","Das Programm steht unter Druck"],
+  h3_cons:["You're consolidating","Sie führen Systeme oder Standorte zusammen"],
+  h3_erp:["You're re-aligning PLM and ERP","Sie teilen PLM und ERP neu auf"],
+  h3_t5:["Control over product data will move","Die Kontrolle über Produktdaten wandert"],
+  h3_t4:["Control over product data will likely move","Die Kontrolle über Produktdaten wandert wahrscheinlich"],
+  h3_t3:["Control over product data may partly move","Die Kontrolle über Produktdaten wandert teilweise"],
+  h3_s3:["It reaches several countries","Es reicht über mehrere Länder"],
+  h4_t5:["{G} expect more work","{GN} erwartet mehr Aufwand"],
+  h4_t4:["{G} rather expect more work","{GN} erwartet eher mehr Aufwand"],
+  h4_t3:["{G}' expectations are mixed","Die Erwartungen {gD} sind gemischt"],
+  h4_w1:["{G} hear: cost and IT","{GD} kommt an: Kosten und IT"],
+  h4_w2:["{G} mostly hear: cost and IT","{GD} kommt eher an: Kosten und IT"],
+  h4_design:["Design engineering is affected","Konstruktion und Entwicklung sind betroffen"],
+  h5_t5:["PLM is one of several big changes","PLM ist eine von mehreren großen Veränderungen"],
+  h5_t4:["PLM rather competes with other changes","PLM konkurriert eher mit anderen Veränderungen"],
+  h5_t3:["PLM shares attention with other changes","PLM teilt sich die Aufmerksamkeit mit anderen Veränderungen"],
+  h5_erp:["PLM and ERP change at the same time","PLM und ERP ändern sich gleichzeitig"],
+  h5_three:["Three kinds of change at once","Drei Arten von Wandel gleichzeitig"],
+  h6_leg:["You're replacing a legacy system","Sie lösen ein Altsystem ab"],
+  h6_d12:["Switch-off within 12 months","Abschaltung in den nächsten 12 Monaten"],
+  h6_d24:["Switch-off in 12–24 months","Abschaltung in 12–24 Monaten"],
+  h7_t1:["Success = go-live on time and budget","Erfolg = Go-live in Zeit und Budget"],
+  h7_t2:["Success is rather measured at go-live","Erfolg wird eher am Go-live gemessen"],
+  h7_t3:["Adoption is only partly tracked","Akzeptanz wird nur teilweise verfolgt"],
+  h7_phase:["You're close to go-live","Der Go-live steht bevor"],
+  h8_saas:["You're moving to the cloud","Sie wechseln in die Cloud"],
+  h8_phase:["You're at or past go-live","Sie sind beim oder nach dem Go-live"],
+  h8_t7:["Success is measured at go-live","Erfolg wird am Go-live gemessen"],
+  h9_t1:["IT leads the programme","Die IT führt das Programm"],
+  h9_t2:["IT rather leads the programme","Das Programm wird eher von der IT geführt"],
+  h9_tm:["The people side starts late","Die menschliche Seite startet spät"],
+  h10_ai:["You're adding AI to PLM","Sie bringen KI ins PLM"],
+  h10_c5:["Views on AI are split","Die Meinungen zu KI sind gespalten"],
+  h10_c4:["Views on AI are rather split","Die Meinungen zu KI sind eher gespalten"],
+  h11_first:["First PLM introduction","Erstmalige PLM-Einführung"],
+  h11_groups:["Five or more groups are affected","Fünf oder mehr Gruppen sind betroffen"]
+};
+
+/* Wording for the most affected group (from "Who will work differently?"). Design engineering wins if chosen. */
+const GROUP_ORDER = ["design","mfg_eng","sim","prod","qual","proc","service","sales","fin","it"];
+const GROUPS = {
+  design: {g:["engineers"], gIn:["engineering"], gArea:["engineering"], gWork:["engineering work","die Engineering-Arbeit"], gBen:["in manufacturing and service","in Fertigung und Service"], gN:[null,"das Engineering"], gD:[null,"im Engineering"], gG:[null,"des Engineerings"]},
+  mfg_eng:{g:["manufacturing engineers"], gIn:["manufacturing engineering"], gArea:["manufacturing engineering"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"die Fertigungsplanung"], gD:[null,"in der Fertigungsplanung"], gG:[null,"der Fertigungsplanung"]},
+  sim:    {g:["simulation and test engineers"], gIn:["simulation and testing"], gArea:["simulation and testing"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"der Simulations- und Testbereich"], gD:[null,"im Simulations- und Testbereich"], gG:[null,"des Simulations- und Testbereichs"]},
+  prod:   {g:["production teams"], gIn:["production"], gArea:["production"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"die Produktion"], gD:[null,"in der Produktion"], gG:[null,"der Produktion"]},
+  qual:   {g:["quality teams"], gIn:["quality"], gArea:["quality"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"die Qualitätssicherung"], gD:[null,"in der Qualitätssicherung"], gG:[null,"der Qualitätssicherung"]},
+  proc:   {g:["purchasing teams"], gIn:["purchasing"], gArea:["purchasing"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"der Einkauf"], gD:[null,"im Einkauf"], gG:[null,"des Einkaufs"]},
+  service:{g:["service teams"], gIn:["service"], gArea:["service"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"der Service"], gD:[null,"im Service"], gG:[null,"des Service"]},
+  sales:  {g:["sales teams"], gIn:["sales"], gArea:["sales"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"der Vertrieb"], gD:[null,"im Vertrieb"], gG:[null,"des Vertriebs"]},
+  fin:    {g:["finance teams"], gIn:["finance"], gArea:["finance"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"das Controlling"], gD:[null,"im Controlling"], gG:[null,"des Controllings"]},
+  it:     {g:["IT teams"], gIn:["IT"], gArea:["IT"], gWork:["daily work","die tägliche Arbeit"], gBen:["elsewhere in the value chain","an anderer Stelle der Wertschöpfung"], gN:[null,"die IT"], gD:[null,"in der IT"], gG:[null,"der IT"]}
+};
+/* Team question on the works council, added to every phase */
+const WC = ["When does the works council come in – and on which topics?","Wann wird der Betriebsrat eingebunden – und zu welchen Themen?"];
+const WC_RUN = ["Is the works council involved in what the next releases change?","Ist der Betriebsrat bei den Änderungen der nächsten Releases eingebunden?"];
+const PHASE_Q = {
+  early:[["Who outside {gArea} will feel this – and are they at the table?","Wer außerhalb {gG} spürt das – und sitzt mit am Tisch?"],["What must stay the same for our {g}?","Was muss {gD} gleich bleiben?"],WC],
+  design:[["Which design decisions will users feel first?","Welche Designentscheidungen spüren Nutzende zuerst?"],["Who decides on exceptions to the standard?","Wer entscheidet über Ausnahmen vom Standard?"],WC],
+  rollout:[["Which group is least ready for go-live?","Welche Gruppe ist am wenigsten bereit für den Go-live?"],["Who helps users in the first four weeks?","Wer hilft Nutzenden in den ersten vier Wochen?"],WC],
+  running:[["Which workarounds survived go-live – and why?","Welche Workarounds haben den Go-live überlebt – und warum?"],["How do we handle the next vendor release?","Wie gehen wir mit dem nächsten Release um?"],WC_RUN]
+};
+const PRESSURE_NOTE = ["Many programmes bring in change support right at this point. It's not too late.","Viele Programme holen sich genau jetzt Change-Unterstützung. Es ist nicht zu spät."];
+const UNCLEAR = {
+  Q3:["How it's going","Wie es gerade läuft"],
+  Q4:["How many people are affected","Wie viele Menschen betroffen sind"],
+  Q5:["How far it reaches","Wie weit es reicht"],
+  Q6:["How you build products","Wie Ihre Produkte entstehen"],
+  T1:["Standard or own solutions","Standard oder eigene Lösungen"],
+  T2:["Who leads the programme","Wer das Programm führt"],
+  T3:["Why {g} think it's happening","Wie der Grund {gD} ankommt"],
+  T4:["What {g} expect","Was {gN} erwartet"],
+  T5:["How much change at once","Wie viel Wandel gleichzeitig"],
+  T6:["Who will control product data","Wer Produktdaten kontrolliert"],
+  T7:["What counts as success","Was als Erfolg zählt"],
+  C1:["The switch-off date","Der Abschalttermin"],
+  C2:["How people see AI","Wie Menschen KI sehen"],
+  TM:["When the people side starts","Wann die menschliche Seite startet"]
+};
+const ABOUT = [
+  ["As the digital innovation, design and transformation brand of the Capgemini Group, at Capgemini Invent we enable CxOs to envision and shape what's next for businesses. Located in over 40 studios and more than 70 offices around the world, we are a 13,500 strong team of strategists, data scientists, product and experience designers, brand experts and technologists who develop new digital services, products, experiences and business models for sustainable growth.",
+   "Capgemini Invent is an integral part of Capgemini, an AI-powered global business and technology transformation partner, delivering tangible business value. We imagine the future of organizations and make it real with AI, technology and people. With our strong heritage of nearly 60 years, we are a responsible and diverse group of over 420,000 team members in more than 50 countries. We deliver end-to-end services and solutions with our deep industry expertise and strong partner ecosystem, leveraging our capabilities across strategy, technology, design, engineering and business operations. The Group reported 2025 global revenues of €22.5 billion."],
+  ["Als Marke für digitale Innovation, Design und Transformation der Capgemini-Gruppe befähigen wir bei Capgemini Invent CxOs, die Zukunft ihres Unternehmens zu entwerfen und zu gestalten. In mehr als 40 Studios und über 70 Büros weltweit entwickelt unser 13.500 Personen starkes Team aus Strategie, Data Science, Produkt- und Experience-Design, Markenführung und Technologie neue digitale Services, Produkte, Erlebnisse und Geschäftsmodelle für nachhaltiges Wachstum.",
+   "Capgemini Invent ist integraler Bestandteil von Capgemini, einem KI-gestützten globalen Partner für Business- und Technologietransformation, der greifbaren Geschäftswert schafft. Wir denken die Zukunft von Organisationen voraus und setzen sie mit KI, Technologie und Menschen um. Mit fast 60 Jahren Erfahrung sind wir eine verantwortungsvolle und vielfältige Gruppe mit mehr als 420.000 Mitarbeitenden in über 50 Ländern. Wir bieten End-to-End-Services und -Lösungen auf Basis unserer tiefen Branchenexpertise und unseres starken Partner-Ökosystems und nutzen dabei unsere Fähigkeiten in Strategie, Technologie, Design, Engineering und Geschäftsbetrieb. Die Gruppe erzielte 2025 einen weltweiten Umsatz von 22,5 Milliarden Euro."]
+];
+
+/* ====== RULES ====== */
+const PRIORITY = ["H2","H1","H3","H9","H4","H5","H6","H8","H7","H11","H10"];
+const FALLBACK = ["H2","H1","H4"];
+const REF_SCENARIO = {Q1:["saas","consolidation"],Q2:"design",Q3:"friction",Q4:"u3",Q5:"s3",Q6:"eto",Q7:["design","mfg_eng","service"],Q8:"",C1:null,C2:null,T1:5,T2:3,T3:3,T4:"cs",T5:4,T6:4,T7:3,TM:"notyet"};
+
+"use strict";
+/* ====== HELPERS ====== */
+let S, draft = null, lastFocusKey = "", lastCardKey = "", revealToken = 0;
+const L = () => (S.lang === "de" ? 1 : 0);
+const mainGroup = () => { const q = (typeof S !== "undefined" && S && S.a && S.a.Q7) || []; return GROUP_ORDER.find(g => q.includes(g)) || "design"; };
+const cap = x => x.charAt(0).toUpperCase() + x.slice(1);
+function gsub(s) {
+  const G = GROUPS[mainGroup()], l = L(), f = k => { const v = G[k]; return v[l] != null ? v[l] : v[0]; };
+  return s.replace(/\{(g|G|gIn|gArea|gWork|gBen|gN|GN|gD|GD|gG)\}/g, (m, k) => {
+    if (k === "G") return cap(f("g")); if (k === "GN") return cap(f("gN")); if (k === "GD") return cap(f("gD"));
+    return f(k);
+  });
+}
+const tx = a => { const s = a ? a[L()] : ""; return s && s.indexOf("{") >= 0 ? gsub(s) : s; };
+const t = (k, v) => { let s = (U[k] || [k, k])[L()]; if (v) for (const x in v) s = s.split("{" + x + "}").join(v[x]); return s; };
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const joinList = arr => arr.length <= 1 ? (arr[0] || "") : arr.slice(0, -1).join(", ") + (S.lang === "de" ? " und " : " and ") + arr[arr.length - 1];
+const cleanName = v => String(v || "").replace(/[\u0000-\u001f]/g, " ").replace(/\s+/g, " ").trim().slice(0, CONFIG.maxName);
+const ICON = {
+  sun: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  moon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>',
+  gear: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></svg>',
+  check: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>',
+  tick: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>',
+  quote: '<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="flex:none;color:var(--accent2)"><path d="M9.5 6C6.5 7 5 9.4 5 12.6V18h5.5v-5.5H8c0-2 .9-3.4 2.6-4.1zM18.5 6c-3 1-4.5 3.4-4.5 6.6V18h5.5v-5.5H17c0-2 .9-3.4 2.6-4.1z"/></svg>',
+  info: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>',
+  dl: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>',
+  close: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+};
+const svgPath = d => `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${d}"/></svg>`;
+
+/* ====== MODEL ====== */
+const Q1IDS = Q1.map(o => o.id), Q7IDS = Q7.o.map(o => o[0]), Q8IDS = Q8.o.map(o => o[0]), PIDS = PHASES.map(p => p.id);
+const optIds = k => SINGLE[k].o.map(o => o[0]).concat(["cs"]);
+const emptyAnswers = () => ({ Q1: [], Q2: null, Q3: null, Q4: null, Q5: null, Q6: null, Q7: [], Q8: "", C1: null, C2: null, T1: null, T2: null, T3: null, T4: null, T5: null, T6: null, T7: null, TM: null });
+const freshUI = () => ({ settings: false, modal: null, pillar: null, copyText: null, codeErr: false, prev: "welcome", pillsAnim: true });
+function freshState() {
+  let lang = "en"; try { lang = (navigator.language || "en").toLowerCase().indexOf("de") === 0 ? "de" : "en"; } catch (e) {}
+  return { lang, theme: "dark", name: "", screen: "welcome", ti: 0, a: emptyAnswers(), demo: false, demoName: false, fromCode: false, started: false, form: { name: "", company: "", role: "", time: "" }, ui: freshUI() };
+}
+function tensionList(a) { const l = []; if (a.Q1.includes("legacy_exit")) l.push("C1"); l.push("T1", "T2", "T3", "T4", "T5", "T6", "T7"); if (a.Q1.includes("ai")) l.push("C2"); return l; }
+function isComplete(a) {
+  if (!a.Q1.length || a.Q1.length > 3 || !a.Q2) return false;
+  if (["Q3", "Q4", "Q5", "Q6"].some(k => a[k] == null)) return false;
+  if (!a.Q7.length || a.TM == null) return false;
+  return tensionList(a).every(k => a[k] != null);
+}
+
+/* ====== ENGINE (pure, deterministic) ====== */
+const HIDS = Object.keys(HOTSPOTS);
+function score(a) {
+  const P = {}, G = {}; HIDS.forEach(h => { P[h] = 0; G[h] = []; });
+  const add = (h, p, k) => { P[h] += p; G[h].push(k); };
+  const q1 = a.Q1 || [], has = x => q1.includes(x), T = k => (typeof a[k] === "number" ? a[k] : null);
+  const tri = (h, k, pre) => { const v = T(k); if (v === 5) add(h, 3, pre + "5"); else if (v === 4) add(h, 2, pre + "4"); else if (v === 3) add(h, 1, pre + "3"); };
+  // H1
+  if (has("standard")) add("H1", 2, "h1_std");
+  if (has("saas")) add("H1", 1, "h1_saas");
+  if (has("consolidation")) add("H1", 1, "h1_cons");
+  if (has("legacy_exit")) add("H1", 1, "h1_leg");
+  tri("H1", "T1", "h1_t");
+  if (a.Q6 === "eto") add("H1", 1, "h1_eto");
+  // H2
+  const early = a.Q2 === "considering" || a.Q2 === "selection";
+  if (a.TM === "late") add("H2", 3, "h2_late");
+  else if (a.TM === "notyet") { if (early) add("H2", 2, "h2_notyet_e"); else add("H2", 3, "h2_notyet"); }
+  else if (a.TM === "problems") add("H2", 3, "h2_problems");
+  else if (a.TM === "design") add("H2", 1, "h2_design");
+  if (a.Q3 === "pressure") add("H2", 2, "h2_pressure");
+  // H3
+  if (has("consolidation")) add("H3", 2, "h3_cons");
+  if (has("erp_recut")) add("H3", 2, "h3_erp");
+  tri("H3", "T6", "h3_t");
+  if (a.Q5 === "s3") add("H3", 1, "h3_s3");
+  // H4
+  tri("H4", "T4", "h4_t");
+  { const v = T("T3"); if (v === 1) add("H4", 2, "h4_w1"); else if (v === 2) add("H4", 1, "h4_w2"); }
+  if ((a.Q7 || []).includes("design")) add("H4", 1, "h4_design");
+  // H5
+  tri("H5", "T5", "h5_t");
+  if (has("erp_recut")) add("H5", 2, "h5_erp");
+  if (q1.filter(x => x !== "other").length === 3) add("H5", 1, "h5_three");
+  // H6
+  if (has("legacy_exit")) { add("H6", 2, "h6_leg"); if (a.C1 === "d12") add("H6", 3, "h6_d12"); else if (a.C1 === "d24") add("H6", 2, "h6_d24"); }
+  // H7
+  { const v = T("T7"); if (v === 1) add("H7", 3, "h7_t1"); else if (v === 2) add("H7", 2, "h7_t2"); else if (v === 3) add("H7", 1, "h7_t3"); }
+  if (a.Q2 === "rollout" || a.Q2 === "golive") add("H7", 1, "h7_phase");
+  // H8
+  if (has("saas")) add("H8", 2, "h8_saas");
+  if (a.Q2 === "golive" || a.Q2 === "running") add("H8", 2, "h8_phase");
+  { const v = T("T7"); if (v === 1 || v === 2) add("H8", 1, "h8_t7"); }
+  // H9
+  { const v = T("T2"); if (v === 1) add("H9", 3, "h9_t1"); else if (v === 2) add("H9", 2, "h9_t2"); }
+  if (a.TM === "late" || a.TM === "problems") add("H9", 1, "h9_tm");
+  // H10
+  if (has("ai")) { add("H10", 2, "h10_ai"); const v = T("C2"); if (v === 5) add("H10", 3, "h10_c5"); else if (v === 4) add("H10", 2, "h10_c4"); }
+  // H11
+  if (has("first_plm")) add("H11", 3, "h11_first");
+  if ((a.Q7 || []).length >= 5) add("H11", 1, "h11_groups");
+  return { P, G };
+}
+function evaluate(a) {
+  const { P, G } = score(a);
+  const order = PRIORITY.slice().sort((x, y) => (P[y] - P[x]) || (PRIORITY.indexOf(x) - PRIORITY.indexOf(y)));
+  const shown = order.filter(h => P[h] >= 3).slice(0, 3).map(h => ({ id: h, fb: false }));
+  for (const h of FALLBACK) { if (shown.length >= 3) break; if (!shown.some(s => s.id === h)) shown.push({ id: h, fb: true }); }
+  const ids = new Set(shown.map(s => s.id));
+  const also = order.filter(h => !ids.has(h) && P[h] >= 2).slice(0, 3);
+  const pil = {};
+  PILLARS.forEach(p => {
+    const hi = shown.some(s => HOTSPOTS[s.id].p.includes(p.id));
+    const md = shown.some(s => HOTSPOTS[s.id].s.includes(p.id)) || order.some(h => !ids.has(h) && P[h] >= 3 && HOTSPOTS[h].p.includes(p.id));
+    pil[p.id] = hi ? "hi" : md ? "md" : "lo";
+  });
+  const unclear = ["Q3", "Q4", "Q5", "Q6", "T1", "T2", "T3", "T4", "T5", "T6", "T7", "C1", "C2", "TM"].filter(k => a[k] === "cs");
+  const grp = (a.Q2 === "considering" || a.Q2 === "selection") ? "early" : a.Q2 === "design" ? "design" : (a.Q2 === "rollout" || a.Q2 === "golive") ? "rollout" : "running";
+  return { P, G, shown, also, pil, unclear, grp };
+}
+
+/* ====== PROFILE CODE ====== */
+const B64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+const CODE_PREFIX = "PCN2-";
+const idx1 = (list, v) => { const i = list.indexOf(v); return i < 0 ? 0 : i + 1; };
+const chk = s => { let h = 7; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 4096; return B64[h >> 6] + B64[h & 63]; };
+const toB64u = s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const fromB64u = s => decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/"))));
+function encode(a, demo, name) {
+  const mask = (ids, arr) => ids.reduce((m, id, i) => (arr.includes(id) ? m | (1 << i) : m), 0);
+  const sl = v => (v == null ? 0 : v === "cs" ? 6 : v);
+  const m1 = mask(Q1IDS, a.Q1), m7 = mask(Q7IDS, a.Q7);
+  const d = [demo ? 1 : 0, m1 & 63, m1 >> 6, idx1(PIDS, a.Q2), idx1(optIds("Q3"), a.Q3), idx1(optIds("Q4"), a.Q4), idx1(optIds("Q5"), a.Q5), idx1(optIds("Q6"), a.Q6),
+    m7 & 63, m7 >> 6, idx1(Q8IDS, a.Q8), a.C1 == null ? 0 : idx1(optIds("C1"), a.C1), sl(a.C2), sl(a.T1), sl(a.T2), sl(a.T3), sl(a.T4), sl(a.T5), sl(a.T6), sl(a.T7), a.TM == null ? 0 : idx1(optIds("TM"), a.TM)];
+  const core = d.map(n => B64[n]).join("");
+  const np = name ? "." + toB64u(name) : "";
+  return CODE_PREFIX + core + chk(core + np) + np;
+}
+function decode(code) {
+  try {
+    const c = String(code || "").replace(/\s+/g, "");
+    if (c.indexOf(CODE_PREFIX) !== 0) return null;
+    const rest = c.slice(CODE_PREFIX.length);
+    if (rest.length < 23) return null;
+    const core = rest.slice(0, 21), ck = rest.slice(21, 23), np = rest.slice(23);
+    if (np && np[0] !== ".") return null;
+    if (chk(core + np) !== ck) return null;
+    const d = core.split("").map(ch => B64.indexOf(ch));
+    if (d.some(n => n < 0)) return null;
+    const bits = (m, ids) => ids.filter((id, i) => m & (1 << i));
+    const opt = (k, n) => (n >= 1 && n <= optIds(k).length ? optIds(k)[n - 1] : undefined);
+    const sl = n => (n === 6 ? "cs" : n >= 1 && n <= 5 ? n : undefined);
+    const a = emptyAnswers();
+    if (d[0] > 1) return null;
+    a.Q1 = bits(d[1] | (d[2] << 6), Q1IDS); if (!a.Q1.length || a.Q1.length > 3 || d[2] > 3) return null;
+    a.Q2 = PIDS[d[3] - 1]; if (!a.Q2) return null;
+    for (const [k, i] of [["Q3", 4], ["Q4", 5], ["Q5", 6], ["Q6", 7]]) { a[k] = opt(k, d[i]); if (a[k] === undefined) return null; }
+    a.Q7 = bits(d[8] | (d[9] << 6), Q7IDS); if (!a.Q7.length || d[9] > 15) return null;
+    if (d[10] > Q8IDS.length) return null; a.Q8 = d[10] ? Q8IDS[d[10] - 1] : "";
+    const leg = a.Q1.includes("legacy_exit"), ai = a.Q1.includes("ai");
+    if (leg) { a.C1 = opt("C1", d[11]); if (a.C1 === undefined) return null; } else if (d[11] !== 0) return null;
+    if (ai) { a.C2 = sl(d[12]); if (a.C2 === undefined) return null; } else if (d[12] !== 0) return null;
+    ["T1", "T2", "T3", "T4", "T5", "T6", "T7"].forEach((k, i) => { a[k] = sl(d[13 + i]); });
+    if (["T1", "T2", "T3", "T4", "T5", "T6", "T7"].some(k => a[k] === undefined)) return null;
+    a.TM = opt("TM", d[20]); if (a.TM === undefined) return null;
+    const name = np ? cleanName(fromB64u(np.slice(1))) : "";
+    return { a, demo: d[0] === 1, name };
+  } catch (e) { return null; }
+}
+
+/* ====== DEMO DATA ====== */
+function randomAnswers() {
+  const r = n => Math.floor(Math.random() * n), pick = arr => arr[r(arr.length)];
+  const shuffle = arr => { const x = arr.slice(); for (let i = x.length - 1; i > 0; i--) { const j = r(i + 1); [x[i], x[j]] = [x[j], x[i]]; } return x; };
+  const cs = v => (Math.random() < 0.1 ? "cs" : v);
+  const a = emptyAnswers();
+  a.Q1 = shuffle(Q1IDS.filter(x => x !== "other")).slice(0, 1 + r(3));
+  a.Q2 = pick(PIDS);
+  ["Q3", "Q4", "Q5", "Q6"].forEach(k => { a[k] = cs(pick(SINGLE[k].o.map(o => o[0]))); });
+  a.Q7 = shuffle(Q7IDS).slice(0, 1 + r(6));
+  a.Q8 = Math.random() < 0.7 ? pick(Q8IDS) : "";
+  if (a.Q1.includes("legacy_exit")) a.C1 = cs(pick(SINGLE.C1.o.map(o => o[0])));
+  ["T1", "T2", "T3", "T4", "T5", "T6", "T7"].forEach(k => { a[k] = cs(1 + r(5)); });
+  if (a.Q1.includes("ai")) a.C2 = cs(1 + r(5));
+  a.TM = cs(pick(SINGLE.TM.o.map(o => o[0])));
+  return a;
+}
+
+/* ====== STORAGE ====== */
+function save() {
+  try { const o = Object.assign({}, S); delete o.ui; sessionStorage.setItem(CONFIG.storageKey, JSON.stringify(o)); } catch (e) {}
+}
+function readDraft() {
+  try { const s = sessionStorage.getItem(CONFIG.storageKey); if (!s) return null; const o = JSON.parse(s); if (!o || !o.a) return null; o.a = Object.assign(emptyAnswers(), o.a); return o; } catch (e) { return null; }
+}
+function clearStore() { try { sessionStorage.removeItem(CONFIG.storageKey); } catch (e) {} }
+
+/* ====== TEXT BUILDERS ====== */
+const label = (k, v) => { if (v === "cs") return t("cs"); const o = (SINGLE[k] ? SINGLE[k].o : []).find(x => x[0] === v); return o ? tx(o[1]) : ""; };
+const phaseOf = id => PHASES.find(p => p.id === id);
+const typePhrases = a => a.Q1.map(id => tx(Q1.find(o => o.id === id).ph));
+function moveSentence(a) {
+  const parts = [];
+  if (SCALE_PH[a.Q4]) parts.push(tx(SCALE_PH[a.Q4]));
+  if (SCALE_PH[a.Q5]) parts.push(tx(SCALE_PH[a.Q5]));
+  return t("a1.move", { types: joinList(typePhrases(a)), phase: tx(phaseOf(a.Q2).ph), scale: parts.length ? ", " + parts.join(", ") : "" });
+}
+function summarySentence(a) {
+  const ph = typePhrases(a), phase = tx(phaseOf(a.Q2).ph);
+  return ph.length === 1 ? t("r.sum1", { type: ph[0], phase }) : t("r.sum", { types: joinList(ph), phase });
+}
+const posText = (k, v) => { const T = TENSIONS[k]; if (v === 3) return t("t.p3"); const side = v < 3 ? tx(T.a) : tx(T.b); return t(v === 1 || v === 5 ? "t.p1" : "t.p2", { x: side }); };
+const nm = () => esc(S.name);
+const today = () => { try { return new Date().toLocaleDateString(S.lang === "de" ? "de-DE" : "en-GB", { day: "numeric", month: "long", year: "numeric" }); } catch (e) { return new Date().toISOString().slice(0, 10); } };
+const resultTitle = () => S.name ? t("r.h", { name: nm() }) : t("r.h0");
+
+/* ====== RENDER ====== */
+function progress() {
+  const m = { welcome: 0, type: 10, phase: 18, scope: 26, act1done: 32, timing: 82, reveal: 92, results: 100, further: 100, code: 0 };
+  if (S.screen === "tensions") { const n = tensionList(S.a).length; return 34 + Math.round(46 * (S.ti / n)); }
+  return m[S.screen] || 0;
+}
+function header() {
+  return `<header class="top"><div class="brand"><img class="logo-dark" src="${LOGO}" alt="Capgemini Invent"><img class="logo-light" src="${LOGO_LIGHT}" alt="Capgemini Invent"><span>${t("brand")}</span></div>
+  <div class="toprt"><div class="lang" role="group" aria-label="${t("lang")}"><button data-act="lang" data-v="en" aria-pressed="${S.lang === "en"}">EN</button><button data-act="lang" data-v="de" aria-pressed="${S.lang === "de"}">DE</button></div>
+  <button class="iconbtn" data-act="theme" aria-label="${S.theme === "dark" ? t("toLight") : t("toDark")}" title="${S.theme === "dark" ? t("toLight") : t("toDark")}">${S.theme === "dark" ? ICON.sun : ICON.moon}</button>
+  <button class="iconbtn" data-act="settings" aria-label="${t("settings")}" title="${t("settings")}">${ICON.gear}</button></div>
+  <div class="pbar-bg"></div><div class="pbar" style="width:${progress()}%"></div></header>`;
+}
+function actsBar(n) {
+  return `<div class="acts" aria-hidden="true">${[1, 2, 3].map(i => `<div class="${i < n ? "on" : i === n ? "cur" : ""}"><i></i><span>${t("act" + i)}</span></div>`).join("")}</div>`;
+}
+const stepLabel = n => t("stepOf", { n, name: t("act" + n) });
+function answers(k, row) {
+  const v = S.a[k], o = SINGLE[k].o;
+  const items = o.map((x, i) => `<button class="ans" role="radio" aria-checked="${v === x[0]}" data-act="pick" data-q="${k}" data-v="${x[0]}"><span class="k">${i + 1}</span><span class="t">${tx(x[1])}</span></button>`);
+  if (SINGLE[k].cs) items.push(`<button class="ans cs" role="radio" aria-checked="${v === "cs"}" data-act="pick" data-q="${k}" data-v="cs"><span class="k">?</span><span class="t">${t("cs")}</span></button>`);
+  return `<div class="answers${row ? " row" : ""}" role="radiogroup" aria-label="${esc(tx(SINGLE[k].h))}">${items.join("")}</div>`;
+}
+const navRow = (back, next, ok, label2) => `<div class="actions"><button class="btn sec" data-act="go" data-v="${back}">← ${t("back")}</button><button class="btn pri" data-act="${next}" ${ok ? "" : "disabled"} data-primary>${label2 || t("next")} →</button></div>`;
+
+function scrWelcome() {
+  const resume = draft && draft.started && !S.started ? `<div class="mt16"><button class="btn sec" data-act="resume">${t("w.resume")}</button></div>` : "";
+  return `<div class="col"><span class="label">${t("brand")}</span><h1 tabindex="-1" data-focus>${t("w.h1")}</h1><p class="lead">${t("w.lead")}</p>
+  <figure class="hook">${ICON.quote}<div><blockquote>${S.lang === "de" ? "„" : "“"}${tx(HOOK.f)}${S.lang === "de" ? "“" : "”"}</blockquote><figcaption class="cap">${tx(HOOK.s)}</figcaption></div></figure>
+  <div class="journey">${[1, 2, 3].map(i => `<div class="card"><span class="label">${t("w.step", { n: i })}</span><h4>${t("act" + i)}</h4><p>${t("w.s" + i)}</p></div>`).join("")}</div>
+  <ul class="ticks">${["w.t1", "w.t2", "w.t3"].map(k => `<li>${ICON.tick}${t(k)}</li>`).join("")}</ul>
+  <div class="namebox"><label for="nameIn">${t("w.name")}</label><div class="namerow"><input id="nameIn" class="inp" maxlength="${CONFIG.maxName}" autocomplete="name" placeholder="${t("w.nameph")}" value="${nm()}"><button class="btn pri" data-act="start" data-primary>${t("w.start")} →</button></div>
+  <p class="help">${t("w.namehelp")}</p><div class="mt8"><button class="link" data-act="startNoName">${t("w.noname")}</button></div>${resume}</div></div>`;
+}
+function scrType() {
+  const n = S.a.Q1.length;
+  return actsBar(1) + `<div class="col"><span class="label">${S.name ? t("hi", { name: nm() }) : t("hi0")}</span><h2 class="qh" tabindex="-1" data-focus>${tx(Q1H)}</h2><p class="qsub">${t("q1.sub")}</p><p class="counter" aria-live="polite">${t("q1.count", { n })}</p>
+  <div class="tgrid">${Q1.map(o => { const sel = S.a.Q1.includes(o.id); return `<button class="tcard" data-act="q1" data-v="${o.id}" aria-pressed="${sel}" ${!sel && n >= 3 ? "disabled" : ""}><span class="ic">${svgPath(o.ic)}</span><span><span class="t">${tx(o.t)}</span><span class="d">${tx(o.d)}</span></span><span class="chk">${sel ? ICON.check : ""}</span></button>`; }).join("")}</div>
+  ${navRow("welcome", "toPhase", n >= 1)}</div>`;
+}
+function scrPhase() {
+  return actsBar(1) + `<div class="col"><span class="label">${stepLabel(1)}</span>
+  <div class="block"><h2 class="qh" tabindex="-1" data-focus id="q2h">${tx(Q2H)}</h2><div class="stepper mt24" role="radiogroup" aria-labelledby="q2h">${PHASES.map((p, i) => `<button class="stp" role="radio" aria-checked="${S.a.Q2 === p.id}" data-act="pick" data-q="Q2" data-v="${p.id}"><span class="n">${i + 1}</span><span>${tx(p.t)}</span></button>`).join("")}</div></div>
+  <div class="block"><h3 class="qh">${tx(SINGLE.Q3.h)}</h3><div class="mt16">${answers("Q3", true)}</div></div>
+  ${navRow("type", "toScope", S.a.Q2 && S.a.Q3)}</div>`;
+}
+function scrScope() {
+  const a = S.a, ok = a.Q4 && a.Q5 && a.Q6 && a.Q7.length;
+  return actsBar(1) + `<div class="col"><span class="label">${stepLabel(1)}</span><h2 class="qh" tabindex="-1" data-focus>${t("scope.h")}</h2><p class="qsub">${t("scope.sub")}</p>
+  <div class="block"><h3 class="qh">${tx(SINGLE.Q4.h)}</h3><div class="mt16">${answers("Q4", true)}</div></div>
+  <div class="block"><h3 class="qh">${tx(SINGLE.Q5.h)}</h3><div class="mt16">${answers("Q5", true)}</div></div>
+  <div class="block"><h3 class="qh">${tx(SINGLE.Q6.h)}</h3><div class="mt16">${answers("Q6", false)}</div></div>
+  <div class="block"><h3 class="qh" id="q7h">${tx(Q7.h)}</h3><p class="qsub" style="margin:4px 0 0">${t("q7.sub")}</p><div class="chips mt16" role="group" aria-labelledby="q7h">${Q7.o.map(o => `<button class="chip" data-act="q7" data-v="${o[0]}" aria-pressed="${a.Q7.includes(o[0])}">${tx(o[1])}</button>`).join("")}</div></div>
+  <div class="block"><div class="field" style="max-width:420px"><label for="q8">${tx(Q8.h)} <span class="opt">(${t("optional")})</span></label><select id="q8" class="inp"><option value="">${t("select")}</option>${Q8.o.map(o => `<option value="${o[0]}" ${a.Q8 === o[0] ? "selected" : ""}>${esc(tx(o[1]))}</option>`).join("")}</select></div></div>
+  ${navRow("phase", "toA1", ok)}</div>`;
+}
+const ring = () => `<div class="ring" aria-hidden="true"><svg viewBox="0 0 64 64"><circle class="bg" cx="32" cy="32" r="28"/><circle class="fg" cx="32" cy="32" r="28"/><path class="ck" d="M22 33l7 7 13-15"/></svg></div>`;
+function scrA1() {
+  return actsBar(2) + `<div class="col"><span class="label">${t("a1.label")}</span><div class="summary mt8">${ring()}<div><h2 tabindex="-1" data-focus class="qh">${S.name ? t("a1.thanks", { name: nm() }) : t("a1.thanks0")}</h2><p class="big mt8">${esc(moveSentence(S.a))}</p><p class="mt16">${t("a1.hint")}</p></div></div>
+  <div class="actions"><button class="btn sec" data-act="go" data-v="scope">← ${t("back")}</button><button class="btn pri" data-act="toTensions" data-primary>${t("next")} →</button></div></div>`;
+}
+function scrTensions() {
+  const list = tensionList(S.a); if (S.ti >= list.length) S.ti = list.length - 1;
+  const key = list[S.ti], v = S.a[key], sliders = list.filter(k => k !== "C1");
+  const enter = lastCardKey !== key; lastCardKey = key;
+  const dots = `<div class="dots" aria-hidden="true">${list.map((k, i) => `<i class="${i < S.ti ? "on" : i === S.ti ? "cur" : ""}"></i>`).join("")}</div>`;
+  let card;
+  if (key === "C1") {
+    card = `<div class="tcard2${enter ? " enter" : ""}"><span class="label">${t("t.q", { i: S.ti + 1, n: list.length })}</span><h2 class="qh" tabindex="-1" data-focus>${tx(SINGLE.C1.h)}</h2><div class="mt24">${answers("C1", false)}</div></div>`;
+  } else {
+    const T = TENSIONS[key], si = sliders.indexOf(key);
+    card = `<p class="helper">${t("t.help")}</p><div class="tcard2${enter ? " enter" : ""}"><span class="label">${t("t.of", { i: si + 1, n: sliders.length })}</span><h2 class="qh" id="th" tabindex="-1" data-focus>${tx(T.h)}</h2>
+    <div class="poles"><div class="pole a"><small>A</small>${tx(T.a)}</div><div class="pole b"><small>B</small>${tx(T.b)}</div></div>
+    <div class="track" role="radiogroup" aria-labelledby="th"><div class="rail"></div>${[1, 2, 3, 4, 5].map(n => `<button class="stop" role="radio" aria-checked="${v === n}" tabindex="${v === n || (typeof v !== "number" && n === 3) ? 0 : -1}" data-act="tpick" data-q="${key}" data-v="${n}" aria-label="${esc(posText(key, n))}"></button>`).join("")}</div>
+    <p class="poslabel${typeof v === "number" ? " set" : ""}" aria-live="polite">${typeof v === "number" ? esc(posText(key, v)) : v === "cs" ? t("cs") : t("t.place")}</p>
+    <div class="csrow"><button class="csbtn" data-act="tcs" data-q="${key}" aria-pressed="${v === "cs"}">${t("cs")}</button></div></div>`;
+  }
+  return actsBar(2) + `<div class="col"><span class="label">${stepLabel(2)}</span>${dots}${card}
+  <div class="actions"><button class="btn sec" data-act="tback">← ${t("back")}</button><button class="btn pri" data-act="tnext" ${v != null ? "" : "disabled"} data-primary>${t("next")} →</button></div></div>`;
+}
+function scrTiming() {
+  const answered = S.a.TM != null;
+  const sum = answered ? `<div class="summary mt32">${ring()}<div><p class="big">${S.name ? t("a1.thanks", { name: nm() }) : t("a1.thanks0")} ${t("tm.ready")}</p></div></div>` : "";
+  return actsBar(2) + `<div class="col"><span class="label">${stepLabel(2)}</span><h2 class="qh" tabindex="-1" data-focus>${tx(SINGLE.TM.h)}</h2><p class="qsub">${tx(SINGLE.TM.sub)}</p><div class="mt16">${answers("TM", false)}</div>${sum}
+  <div class="actions"><button class="btn sec" data-act="toLastTension">← ${t("back")}</button><button class="btn pri" data-act="toReveal" ${answered ? "" : "disabled"} data-primary>${t("tm.go")} →</button></div></div>`;
+}
+function scrReveal() {
+  const r = evaluate(S.a);
+  return actsBar(3) + `<div class="col reveal"><span class="label">${stepLabel(3)}</span><h1 tabindex="-1" data-focus>${S.name ? t("rv.h", { name: nm() }) : t("rv.h0")}</h1>
+  <div class="flips">${r.shown.map((s, i) => `<div class="flip" id="flip${i}"><div class="in"><div class="face back"><b>${i + 1}</b></div><div class="face front"><span class="label">${t("r.hot", { n: i + 1 })}</span><h3>${tx(HOTSPOTS[s.id].t)}</h3></div></div></div>`).join("")}</div>
+  <div class="actions" style="justify-content:center"><button class="link" data-act="toResults">${t("rv.skip")}</button><button class="btn pri" data-act="toResults" data-primary>${t("rv.go")} →</button></div></div>`;
+}
+function pillarNote(r, p) {
+  let n = 0, hid = null;
+  r.shown.forEach((s, i) => { const H = HOTSPOTS[s.id]; if (!n && H.p.includes(p.id)) { n = i + 1; hid = s.id; } });
+  if (!n) r.shown.forEach((s, i) => { const H = HOTSPOTS[s.id]; if (!n && H.s.includes(p.id)) { n = i + 1; hid = s.id; } });
+  const txt = hid && NEEDS[hid] && NEEDS[hid][p.id] ? NEEDS[hid][p.id] : NEED_BASE[p.id];
+  return { n, text: tx(txt) };
+}
+function hotCard(s, i, r) {
+  const H = HOTSPOTS[s.id], sig = r.G[s.id];
+
+  return `<article class="hot">
+  <div class="tags"><span class="tag acc">${t("r.hot", { n: i + 1 })}</span>${s.fb ? `<span class="tag fb">${t("r.often")}</span>` : ""}</div>
+  <h3>${tx(H.t)}</h3>
+  <p class="see">${tx(H.see)}</p>
+  <div class="ask"><span class="kk">${t("r.ask")}</span><p>${tx(H.q)}</p></div>
+  ${sig.length ? `<details class="more"><summary>${t("r.more")}</summary><div class="morein"><ul>${sig.map(k => `<li>${tx(SIGNALS[k])}</li>`).join("")}</ul></div></details>` : `<div class="more nomore"></div>`}</article>`;
+}
+function scrResults() {
+  if (!isComplete(S.a)) { S.screen = "welcome"; return scrWelcome(); }
+  const r = evaluate(S.a), anim = S.ui.pillsAnim; S.ui.pillsAnim = false;
+  const side = [];
+  if (r.also.length) side.push(`<div class="mini"><h3>${t("r.also")}</h3>${r.also.map(h => { const H = HOTSPOTS[h]; return `<details><summary>${tx(H.t)}</summary><div class="body"><p>${tx(H.see)}</p><p class="small mt8"><b>${t("r.ask")}:</b> ${tx(H.q)}</p></div></details>`; }).join("")}</div>`);
+  if (r.unclear.length) side.push(`<div class="mini"><h3>${t("r.unclear")}</h3><p class="small">${t("r.unclearI")}</p><ul class="ulist mt8">${r.unclear.map(k => `<li>${tx(UNCLEAR[k])}</li>`).join("")}</ul></div>`);
+  return `<div class="wide">${S.fromCode ? `<div class="banner">${t("r.fromcode")}</div>` : ""}
+  <span class="label">${today()}</span><h1 tabindex="-1" data-focus>${resultTitle()}</h1><p class="disc">${ICON.info}${t("r.disc")}</p>
+  <p class="sumline">${esc(summarySentence(S.a))} <b>${t("r.hotsH")}.</b></p>
+  ${S.a.Q3 === "pressure" ? `<div class="callout">${tx(PRESSURE_NOTE)}</div>` : ""}
+  <div class="hots">${r.shown.map((s, i) => hotCard(s, i, r)).join("")}</div>
+  <h2 class="sechead">${t("r.pil")}</h2><p class="secsub">${t("r.pilsub")}</p>
+  <div class="pills${anim ? " anim" : ""}">${PILLARS.map((p, i) => { const nt = pillarNote(r, p); return `<div class="pill" style="animation-delay:${i * 90}ms"><span class="nm">${p.n}</span><span class="q">${tx(p.q)}</span><span class="kk">${t("pl.need")}</span><span class="note">${nt.text}</span>${nt.n ? `<span class="from"><i>${nt.n}</i>${t("pl.from", { n: nt.n })}</span>` : ""}</div>`; }).join("")}</div>
+  <div class="teamq"><h2>${t("r.team")}</h2><ol class="qlist">${r.shown.map(s => `<li>${tx(HOTSPOTS[s.id].q)}</li>`).join("")}${PHASE_Q[r.grp].map(q => `<li>${tx(q)}</li>`).join("")}</ol></div>
+  ${side.length ? `<div class="minis">${side.join("")}</div>` : ""}
+  <div class="cta"><img class="avatar lg" src="${ESTHER}" alt="${CONFIG.contact.name}"><div class="ctat"><h2>${t("r.cta")}</h2><p>${t("r.ctaT")}</p></div><button class="btn pri" data-act="toFurther" data-primary>${t("r.further")} →</button></div>
+  <div class="actions"><button class="link" data-act="edit">${t("r.edit")}</button></div></div>`;
+}
+function scrFurther() {
+  if (!isComplete(S.a)) { S.screen = "welcome"; return scrWelcome(); }
+  const code = encode(S.a, S.demo, S.name), f = S.form, fname = f.name || S.name;
+  const manual = S.ui.copyText ? `<div class="mt16"><p class="small">${t("f.manual", { email: CONFIG.contact.email })}</p><textarea class="inp mt8" id="manualText" readonly rows="10">${esc(S.ui.copyText)}</textarea></div>` : "";
+  return `<div class="col"><span class="label">${t("act3")}</span><h1 tabindex="-1" data-focus>${t("f.h")}</h1>
+  <div class="fstack mt32">
+   <section class="card talk"><div class="talkhead"><div><h2>${t("f.talk")}</h2><p class="mt8">${t("f.offer")}</p></div>
+     <div class="contact"><img class="avatar" src="${ESTHER}" alt="${CONFIG.contact.name}"><div><span class="cap">${t("f.contact")}</span><b>${CONFIG.contact.name}</b><span>${tx(CONFIG.contact.role)}</span><span><a href="mailto:${CONFIG.contact.email}">${CONFIG.contact.email}</a></span></div></div></div>
+    <div class="formgrid">
+     <div class="field"><label for="fName">${t("f.name")} <span class="opt">(${t("optional")})</span></label><input id="fName" class="inp" data-form="name" maxlength="60" autocomplete="name" value="${esc(fname)}"></div>
+     <div class="field"><label for="fCompany">${t("f.company")} <span class="opt">(${t("optional")})</span></label><input id="fCompany" class="inp" data-form="company" maxlength="60" autocomplete="organization" value="${esc(f.company)}"></div>
+     <div class="field"><label for="fRole">${t("f.role")} <span class="opt">(${t("optional")})</span></label><input id="fRole" class="inp" data-form="role" maxlength="60" autocomplete="organization-title" value="${esc(f.role)}"></div>
+     <div class="field"><label for="fTime">${t("f.time")} <span class="opt">(${t("optional")})</span></label><select id="fTime" class="inp" data-form="time"><option value="">${t("select")}</option>${["f.t1", "f.t2", "f.t3", "f.t4"].map(k => `<option value="${k}" ${f.time === k ? "selected" : ""}>${t(k)}</option>`).join("")}</select></div>
+    </div>
+    <div class="namerow"><button class="btn pri" data-act="mail" data-primary>${t("f.mail")}</button><button class="btn sec" data-act="copymail">${t("f.copy")}</button></div>
+    <p class="priv">${t("f.priv")} ${t("f.reply")}</p>${manual}
+   </section>
+   <section class="card"><span class="label">${t("f.rep")}</span><h2>${t("f.code")}</h2><p class="mt8">${t("f.codeT")}</p>
+    <div class="codebox"><code id="codeOut">${esc(code)}</code><button class="btn sec" data-act="copycode">${t("f.copycode")}</button></div>
+    <button class="link dl mt16" data-act="xlsx">${ICON.dl}${t("f.xlsx")}</button>
+   </section>
+  </div>
+  <div class="actions"><button class="btn sec" data-act="go" data-v="results">← ${t("f.backres")}</button><button class="link" data-act="startOver">${t("f.over")}</button></div></div>`;
+}
+function scrCode() {
+  return `<div class="col"><h1 tabindex="-1" data-focus>${t("c.h")}</h1><p class="lead">${t("c.t")}</p><textarea id="codeIn" class="inp mt24" rows="4" spellcheck="false" aria-label="${t("c.h")}"></textarea>${S.ui.codeErr ? `<p class="small mt8" style="color:var(--crit)" role="alert">${t("c.err")}</p>` : ""}
+  <div class="actions"><button class="btn sec" data-act="codeBack">← ${t("back")}</button><button class="btn pri" data-act="codeOpen" data-primary>${t("c.open")}</button></div></div>`;
+}
+function footer() {
+  return `<footer class="foot"><span class="copy">© Capgemini 2026 · <button class="ver" data-act="egg" aria-label="Version ${CONFIG.version}">${t("foot.ver", { v: CONFIG.version })}</button></span><nav><button data-act="openCode">${t("foot.code")}</button><button data-act="privacy">${t("foot.priv")}</button><button data-act="about">${t("foot.about")}</button></nav></footer>`;
+}
+function overlays() {
+  let h = "";
+  if (S.ui.settings) {
+    h += `<div class="scrim" data-act="closeSettings"></div><aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="setH"><div class="dh"><h2 id="setH" tabindex="-1">${t("settings")}</h2><button class="iconbtn" data-act="closeSettings" aria-label="${t("s.close")}">${ICON.close}</button></div>
+    <section><h3>${t("lang")}</h3><div class="seg"><button data-act="lang" data-v="en" aria-pressed="${S.lang === "en"}">English</button><button data-act="lang" data-v="de" aria-pressed="${S.lang === "de"}">Deutsch</button></div></section>
+    <section><h3>${t("s.theme")}</h3><div class="seg"><button data-act="setTheme" data-v="dark" aria-pressed="${S.theme === "dark"}">${t("s.dark")}</button><button data-act="setTheme" data-v="light" aria-pressed="${S.theme === "light"}">${t("s.light")}</button></div></section>
+    <section><h3><label for="setName">${t("s.name")}</label></h3><input id="setName" class="inp" maxlength="${CONFIG.maxName}" autocomplete="name" value="${nm()}"><p class="help">${t("s.nameT")}</p></section>
+    <section><h3>${t("s.show")}</h3><p class="small">${t("s.showT")}</p><button class="btn sec" data-act="loadRef">${t("s.ref")}</button></section>
+    <section><button class="btn sec" data-act="openCode">${t("foot.code")}</button><button class="btn sec" data-act="startOver">${t("f.over")}</button></section>
+    <section><p class="cap">${t("s.ver", { v: CONFIG.version, d: tx(CONFIG.contentDate) })}</p></section></aside>`;
+  }
+  const m = S.ui.modal;
+  if (m) {
+    let body = "";
+    if (m === "replace" || m === "over") {
+      const k = m === "replace" ? "repl" : "over";
+      body = `<h2 id="mH" tabindex="-1">${t("m." + k + "H")}</h2><p>${t("m." + k + "T")}</p><div class="actions"><button class="btn sec" data-act="modalCancel">${t("m.cancel")}</button><button class="btn pri" data-act="modalOk">${t("m." + k)}</button></div>`;
+    } else if (m === "privacy") {
+      body = `<h2 id="mH" tabindex="-1">${t("priv.h")}</h2><p>${t("priv.t")}</p>${CONFIG.privacyUrl ? `<p class="mt16"><a href="${esc(CONFIG.privacyUrl)}" target="_blank" rel="noopener">${t("priv.link")}</a></p>` : ""}<div class="actions"><span></span><button class="btn pri" data-act="modalCancel">${t("s.close")}</button></div>`;
+    } else if (m === "about") {
+      body = `<h2 id="mH" tabindex="-1">${t("about.h")}</h2><div class="about">${ABOUT[L()].map(p => `<p>${p}</p>`).join("")}</div><div class="actions"><span></span><button class="btn pri" data-act="modalCancel">${t("s.close")}</button></div>`;
+    }
+    h += `<div class="scrim" data-act="modalCancel"></div><div class="modal" role="dialog" aria-modal="true" aria-labelledby="mH">${body}</div>`;
+  }
+  return h;
+}
+function render() {
+  const root = document.documentElement;
+  root.lang = S.lang; root.setAttribute("data-theme", S.theme);
+  document.title = "PLM Change Navigator · Capgemini Invent";
+  const skip = document.getElementById("skip"); if (skip) skip.textContent = t("skip");
+  const scr = { welcome: scrWelcome, type: scrType, phase: scrPhase, scope: scrScope, act1done: scrA1, tensions: scrTensions, timing: scrTiming, reveal: scrReveal, results: scrResults, further: scrFurther, code: scrCode }[S.screen] || scrWelcome;
+  const main = scr();
+  const demo = S.demo ? `<div class="demo" role="status">${t("demo")}<button data-act="clearDemo">${t("demo.clear")}</button></div>` : "";
+  document.getElementById("app").innerHTML = header() + demo + `<main id="main" tabindex="-1">${main}</main>` + footer() + overlays();
+  // focus management
+  const fk = S.screen + "|" + S.ti + "|" + (S.ui.settings ? "s" : "") + "|" + (S.ui.modal || "");
+  if (fk !== lastFocusKey) {
+    const target = S.ui.modal ? document.getElementById("mH") : S.ui.settings ? document.getElementById("setH") : document.querySelector("[data-focus]");
+    const prevScreen = lastFocusKey.split("|")[0];
+    lastFocusKey = fk;
+    if (target) { try { target.focus({ preventScroll: true }); } catch (e) {} }
+    if (prevScreen !== S.screen) window.scrollTo(0, 0);
+  }
+  if (S.screen === "reveal") runReveal();
+  save();
+}
+function runReveal() {
+  const tok = ++revealToken;
+  let reduce = false; try { reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+  [0, 1, 2].forEach(i => {
+    const fire = () => { if (tok !== revealToken) return; const el = document.getElementById("flip" + i); if (el) el.classList.add("on"); };
+    if (reduce) fire(); else setTimeout(fire, 350 + i * 600);
+  });
+}
+
+/* ====== ACTIONS ====== */
+function go(screen) { S.screen = screen; S.ui.pillar = null; S.ui.copyText = null; S.ui.codeErr = false; render(); }
+function toast(msg) { const el = document.getElementById("toast"); if (!el) return; el.textContent = msg; el.classList.remove("hidden"); clearTimeout(toast._t); toast._t = setTimeout(() => el.classList.add("hidden"), 3200); }
+function hasAnswers() { const a = S.a; return a.Q1.length || a.Q2 || a.TM != null; }
+function markEdited() { S.fromCode = false; }
+function loadShowcase() {
+  S.a = JSON.parse(JSON.stringify(REF_SCENARIO));
+  S.a = Object.assign(emptyAnswers(), S.a);
+  S.demo = true; S.fromCode = false; S.started = true;
+  if (!S.name) { S.name = "Demo"; S.demoName = true; }
+  S.ui.settings = false; S.ui.modal = null; S.ui.pillsAnim = true;
+  go("results"); toast(t("toast.demo"));
+}
+let pending = null;
+function confirmModal(kind, fn) { pending = fn; S.ui.modal = kind; render(); }
+function mailContent() {
+  const r = evaluate(S.a), f = S.form, nmv = cleanName(f.name || S.name);
+  const L1 = [t("mail.hello"), "", t("mail.intro"), ""];
+  const extra = [];
+  if (nmv) extra.push(t("f.name") + ": " + nmv);
+  if (f.company) extra.push(t("f.company") + ": " + cleanName(f.company));
+  if (f.role) extra.push(t("f.role") + ": " + cleanName(f.role));
+  if (f.time) extra.push(t("f.time") + ": " + t(f.time));
+  if (extra.length) L1.push(...extra, "");
+  L1.push(t("mail.move", { types: S.a.Q1.map(id => tx(Q1.find(o => o.id === id).t)).join(", "), phase: tx(phaseOf(S.a.Q2).t), pulse: label("Q3", S.a.Q3) }));
+  L1.push(t("mail.scale", { users: label("Q4", S.a.Q4), sites: label("Q5", S.a.Q5) }));
+  L1.push(t("mail.hots"));
+  r.shown.forEach((s, i) => L1.push((i + 1) + ") " + tx(HOTSPOTS[s.id].t)));
+  L1.push("", t("mail.code", { code: encode(S.a, S.demo, S.name) }), "", t("mail.bye"));
+  if (nmv) L1.push(nmv);
+  return { subject: (S.demo ? "[DEMO] " : "") + t("mail.subj"), body: L1.join("\n") };
+}
+function mailtoUrl() {
+  const m = mailContent();
+  let url = "mailto:" + CONFIG.contact.email + "?subject=" + encodeURIComponent(m.subject) + "&body=" + encodeURIComponent(m.body);
+  if (url.length > CONFIG.maxMailto) {
+    const short = m.body.split("\n").filter(l => !/^\d\) /.test(l) && l !== t("mail.hots")).join("\n");
+    url = "mailto:" + CONFIG.contact.email + "?subject=" + encodeURIComponent(m.subject) + "&body=" + encodeURIComponent(short);
+  }
+  return url;
+}
+function copyText(text, onFail) {
+  const fallback = () => {
+    try { const ta = document.createElement("textarea"); ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0"; document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); document.body.removeChild(ta); if (ok) { toast(t("toast.copied")); return; } } catch (e) {}
+    onFail && onFail();
+  };
+  try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(() => toast(t("toast.copied")), fallback); return; } } catch (e) {}
+  fallback();
+}
+function act(a, d, el) {
+  switch (a) {
+    case "lang": S.lang = d.v; render(); break;
+    case "theme": S.theme = S.theme === "dark" ? "light" : "dark"; render(); break;
+    case "setTheme": S.theme = d.v; render(); break;
+    case "settings": S.ui.settings = true; render(); break;
+    case "closeSettings": S.ui.settings = false; render(); break;
+    case "start": { const inp = document.getElementById("nameIn"); const v = cleanName(inp ? inp.value : ""); if (v !== S.name) S.demoName = false; S.name = v; S.started = true; go("type"); break; }
+    case "startNoName": S.name = ""; S.demoName = false; S.started = true; go("type"); break;
+    case "resume": { const keep = { lang: S.lang, theme: S.theme }; S = Object.assign(freshState(), draft, keep, { ui: freshUI() }); draft = null; render(); break; }
+    case "go": go(d.v); break;
+    case "q1": {
+      const q = S.a.Q1, i = q.indexOf(d.v);
+      if (i >= 0) q.splice(i, 1); else if (q.length < 3) q.push(d.v);
+      if (!q.includes("legacy_exit")) S.a.C1 = null;
+      if (!q.includes("ai")) S.a.C2 = null;
+      markEdited(); render(); break;
+    }
+    case "pick": S.a[d.q] = d.v; markEdited(); render(); break;
+    case "q7": { const q = S.a.Q7, i = q.indexOf(d.v); if (i >= 0) q.splice(i, 1); else q.push(d.v); markEdited(); render(); break; }
+    case "tpick": S.a[d.q] = Number(d.v); markEdited(); render(); focusSel(); break;
+    case "tcs": S.a[d.q] = S.a[d.q] === "cs" ? null : "cs"; markEdited(); render(); break;
+    case "toPhase": go("phase"); break;
+    case "toScope": go("scope"); break;
+    case "toA1": go("act1done"); break;
+    case "toTensions": S.ti = 0; lastCardKey = ""; go("tensions"); break;
+    case "tback": if (S.ti > 0) { S.ti--; render(); } else go("act1done"); break;
+    case "tnext": { const n = tensionList(S.a).length; if (S.ti < n - 1) { S.ti++; render(); } else go("timing"); break; }
+    case "toLastTension": S.ti = tensionList(S.a).length - 1; lastCardKey = ""; go("tensions"); break;
+    case "toReveal": if (isComplete(S.a)) { S.ui.pillsAnim = true; go("reveal"); } break;
+    case "toResults": revealToken++; go("results"); break;
+    case "toFurther": go("further"); break;
+    case "edit": S.fromCode = false; go("type"); break;
+    case "print": doPrint(); break;
+    case "xlsx": downloadXlsx(); break;
+    case "mail": { const url = mailtoUrl(); toast(t("toast.mail")); window.location.href = url; break; }
+    case "copymail": { const m = mailContent(); const text = "To: " + CONFIG.contact.email + "\nSubject: " + m.subject + "\n\n" + m.body; copyText(text, () => { S.ui.copyText = text; render(); }); break; }
+    case "copycode": copyText(encode(S.a, S.demo, S.name), () => { const c = document.getElementById("codeOut"); if (c) { const rg = document.createRange(); rg.selectNodeContents(c); const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(rg); } }); break;
+    case "openCode": S.ui.prev = S.screen === "code" ? S.ui.prev : S.screen; S.ui.settings = false; go("code"); break;
+    case "codeBack": go(S.ui.prev || "welcome"); break;
+    case "codeOpen": {
+      const inp = document.getElementById("codeIn"); const res = decode(inp ? inp.value : "");
+      if (!res) { S.ui.codeErr = true; render(); const i2 = document.getElementById("codeIn"); if (i2 && inp) { i2.value = inp.value; i2.focus(); } break; }
+      S.a = res.a; S.demo = res.demo; S.name = res.name; S.demoName = false; S.fromCode = true; S.started = true; S.ui.pillsAnim = true; go("results"); break;
+    }
+    case "startOver": S.ui.settings = false; confirmModal("over", () => { const keep = { lang: S.lang, theme: S.theme }; clearStore(); draft = null; S = Object.assign(freshState(), keep); lastCardKey = ""; render(); }); break;
+    case "loadRef": { if (hasAnswers() && !S.demo) { S.ui.settings = false; confirmModal("replace", () => loadShowcase()); } else loadShowcase(); break; }
+    case "egg": toast("Made by Fabian Moreno Almeida"); break;
+    case "clearDemo": { const keep = { lang: S.lang, theme: S.theme, name: S.demoName ? "" : S.name }; S = Object.assign(freshState(), keep); lastCardKey = ""; render(); break; }
+    case "privacy": S.ui.modal = "privacy"; render(); break;
+    case "about": S.ui.modal = "about"; render(); break;
+    case "modalOk": { const fn = pending; pending = null; S.ui.modal = null; if (fn) fn(); else render(); break; }
+    case "modalCancel": pending = null; S.ui.modal = null; render(); break;
+  }
+}
+function focusSel() { const el = document.querySelector('.stop[aria-checked="true"]'); if (el) el.focus(); }
+
+/* ====== EXCEL EXPORT (minimal .xlsx writer, no libraries) ====== */
+const CRC_T = (() => { const tb = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; tb[n] = c >>> 0; } return tb; })();
+const crc32 = u8 => { let c = 0xFFFFFFFF; for (let i = 0; i < u8.length; i++) c = CRC_T[(c ^ u8[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+function zipBlob(files) {
+  const enc = new TextEncoder(), parts = [], central = []; let off = 0;
+  const d = new Date(), dt = ((d.getFullYear() - 1980) << 9) | ((d.getMonth() + 1) << 5) | d.getDate(), tm = (d.getHours() << 11) | (d.getMinutes() << 5) | (d.getSeconds() >> 1);
+  for (const f of files) {
+    const nmb = enc.encode(f.name), data = enc.encode(f.text), crc = crc32(data);
+    const h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(8, 0, true); h.setUint16(10, tm, true); h.setUint16(12, dt, true);
+    h.setUint32(14, crc, true); h.setUint32(18, data.length, true); h.setUint32(22, data.length, true); h.setUint16(26, nmb.length, true); h.setUint16(28, 0, true);
+    parts.push(new Uint8Array(h.buffer), nmb, data);
+    const c = new DataView(new ArrayBuffer(46));
+    c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true); c.setUint16(10, 0, true); c.setUint16(12, tm, true); c.setUint16(14, dt, true);
+    c.setUint32(16, crc, true); c.setUint32(20, data.length, true); c.setUint32(24, data.length, true); c.setUint16(28, nmb.length, true); c.setUint32(42, off, true);
+    central.push(new Uint8Array(c.buffer), nmb);
+    off += 30 + nmb.length + data.length;
+  }
+  const cd = central.reduce((n, a) => n + a.length, 0), e = new DataView(new ArrayBuffer(22));
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, cd, true); e.setUint32(16, off, true);
+  return new Blob(parts.concat(central, [new Uint8Array(e.buffer)]), { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+}
+const xesc = v => String(v == null ? "" : v).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function sheetXml(rows, widths) {
+  const body = rows.map((r, ri) => `<row r="${ri + 1}">${r.map((c, ci) => {
+    if (c == null || c === "") return ""; const o = typeof c === "object" ? c : { v: c };
+    return `<c r="${String.fromCharCode(65 + ci)}${ri + 1}" t="inlineStr" s="${o.b ? 1 : 2}"><is><t xml:space="preserve">${xesc(o.v)}</t></is></c>`;
+  }).join("")}</row>`).join("");
+  return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><cols>${widths.map((w, i) => `<col min="${i + 1}" max="${i + 1}" width="${w}" customWidth="1"/>`).join("")}</cols><sheetData>${body}</sheetData></worksheet>`;
+}
+function answerRows() {
+  const a = S.a, lab = (k, v) => (v === "cs" ? t("cs") : label(k, v));
+  const rows = [[{ v: t("x.q"), b: 1 }, { v: t("x.a"), b: 1 }]];
+  rows.push([tx(Q1H), a.Q1.map(id => tx(Q1.find(o => o.id === id).t)).join("; ")]);
+  rows.push([tx(Q2H), tx(phaseOf(a.Q2).t)]);
+  ["Q3", "Q4", "Q5", "Q6"].forEach(k => rows.push([tx(SINGLE[k].h), lab(k, a[k])]));
+  rows.push([tx(Q7.h), a.Q7.map(id => tx(Q7.o.find(o => o[0] === id)[1])).join("; ")]);
+  const p8 = Q8.o.find(o => o[0] === a.Q8); rows.push([tx(Q8.h), p8 ? tx(p8[1]) : ""]);
+  tensionList(a).forEach(k => {
+    if (k === "C1") { rows.push([tx(SINGLE.C1.h), lab("C1", a.C1)]); return; }
+    const T = TENSIONS[k]; rows.push([`${tx(T.h)} (A: ${tx(T.a)} / B: ${tx(T.b)})`, a[k] === "cs" ? t("cs") : posText(k, a[k])]);
+  });
+  rows.push([tx(SINGLE.TM.h), lab("TM", a.TM)]);
+  return rows;
+}
+function profileRows() {
+  const r = evaluate(S.a), code = encode(S.a, S.demo, S.name), rows = [];
+  rows.push([{ v: "PLM Change Navigator · Capgemini Invent", b: 1 }], ["Product Lifecycle Management (PLM)"]);
+  if (S.demo) rows.push([{ v: t("demo"), b: 1 }]);
+  rows.push([t("x.date"), today()]);
+  if (S.name) rows.push([t("f.name"), S.name]);
+  rows.push([t("p.code"), code], [t("x.version"), "v" + CONFIG.version], [], [summarySentence(S.a)], [t("r.disc")], []);
+  rows.push([{ v: t("r.hotsH"), b: 1 }, { v: t("r.ask"), b: 1 }]);
+  r.shown.forEach((s, i) => rows.push([`${i + 1} · ${tx(HOTSPOTS[s.id].t)}`, tx(HOTSPOTS[s.id].q)]));
+  rows.push([], [{ v: t("r.pil"), b: 1 }, { v: t("p.note"), b: 1 }]);
+  PILLARS.forEach(p => rows.push([`${p.n} – ${tx(p.q)}`, pillarNote(r, p).text]));
+  rows.push([], [{ v: t("r.team"), b: 1 }]);
+  r.shown.map(s => tx(HOTSPOTS[s.id].q)).concat(PHASE_Q[r.grp].map(q => tx(q))).forEach((q, i) => rows.push([`${i + 1}. ${q}`]));
+  if (r.also.length) { rows.push([], [{ v: t("r.also"), b: 1 }]); r.also.forEach(h => rows.push([tx(HOTSPOTS[h].t)])); }
+  if (r.unclear.length) { rows.push([], [{ v: t("r.unclear"), b: 1 }]); r.unclear.forEach(k => rows.push([tx(UNCLEAR[k])])); }
+  rows.push([], [`${CONFIG.contact.name}, ${tx(CONFIG.contact.role)} · ${CONFIG.contact.email}`]);
+  return rows;
+}
+function buildXlsx() {
+  const s1 = t("x.profile"), s2 = t("x.answers");
+  const styles = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><name val="Calibri"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"><alignment wrapText="1" vertical="top"/></xf><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment wrapText="1" vertical="top"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`;
+  const files = [
+    { name: "[Content_Types].xml", text: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>` },
+    { name: "_rels/.rels", text: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>` },
+    { name: "xl/workbook.xml", text: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="${xesc(s1)}" sheetId="1" r:id="rId1"/><sheet name="${xesc(s2)}" sheetId="2" r:id="rId2"/></sheets></workbook>` },
+    { name: "xl/_rels/workbook.xml.rels", text: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>` },
+    { name: "xl/styles.xml", text: styles },
+    { name: "xl/worksheets/sheet1.xml", text: sheetXml(profileRows(), [62, 70]) },
+    { name: "xl/worksheets/sheet2.xml", text: sheetXml(answerRows(), [70, 50]) }
+  ];
+  return zipBlob(files);
+}
+function downloadXlsx() {
+  try {
+    const blob = buildXlsx(), url = URL.createObjectURL(blob), a = document.createElement("a");
+    a.href = url; a.download = `PLM_Change_Profile_${new Date().toISOString().slice(0, 10)}.xlsx`;
+    document.body.appendChild(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 1500);
+    toast(t("toast.xlsx"));
+  } catch (e) { toast("Excel export failed."); }
+}
+
+/* ====== PRINT ====== */
+function buildPrint() {
+  const el = document.getElementById("print");
+  if (!isComplete(S.a)) { el.innerHTML = ""; document.body.classList.remove("has-print"); return; }
+  const r = evaluate(S.a), date = today();
+  el.innerHTML = `<div class="pr">
+  <div class="phd"><img src="${LOGO_LIGHT}" alt="Capgemini Invent"><span>PLM Change Navigator · Product Lifecycle Management · ${date}</span></div>
+  ${S.demo ? `<div class="pdemo">${t("demo")}</div>` : ""}
+  ${S.name ? `<p class="meta">${t("p.for", { name: nm() })} · ${date}</p>` : ""}
+  <h1>${resultTitle()}</h1><p class="meta">${t("r.disc")}</p>
+  <p style="margin-top:10px;color:#121A38">${esc(summarySentence(S.a))}</p>
+  ${S.a.Q3 === "pressure" ? `<p style="margin-top:6px">${tx(PRESSURE_NOTE)}</p>` : ""}
+  <h2>${t("r.hotsH")}</h2>
+  ${r.shown.map((s, i) => { const H = HOTSPOTS[s.id]; return `<div class="ph"><h3>${i + 1} · ${tx(H.t)}${s.fb ? ` <span class="meta">(${t("r.often")})</span>` : ""}</h3><span class="k">${t("r.see")}</span><p>${tx(H.see)}</p>${r.G[s.id].length ? `<span class="k">${t("r.why")}</span><ul>${r.G[s.id].map(k => `<li>${tx(SIGNALS[k])}</li>`).join("")}</ul>` : ""}<span class="k">${t("r.ask")}</span><p class="q">${tx(H.q)}</p></div>`; }).join("")}
+  <div class="avoid"><h2>${t("r.pil")}</h2><p class="meta">${t("r.pilsub")}</p><table><thead><tr><th>${t("p.area")}</th><th>${t("p.q")}</th><th>${t("p.note")}</th></tr></thead><tbody>${PILLARS.map(p => `<tr><td>${p.n}</td><td>${tx(p.q)}</td><td>${pillarNote(r, p).text}</td></tr>`).join("")}</tbody></table></div>
+  ${r.also.length ? `<div class="avoid"><h2>${t("r.also")}</h2><ul>${r.also.map(h => `<li>${tx(HOTSPOTS[h].t)}</li>`).join("")}</ul></div>` : ""}
+  ${r.unclear.length ? `<div class="avoid"><h2>${t("r.unclear")}</h2><ul>${r.unclear.map(k => `<li>${tx(UNCLEAR[k])}</li>`).join("")}</ul></div>` : ""}
+  <div class="avoid"><h2>${t("r.team")}</h2><ol>${r.shown.map(s => `<li>${tx(HOTSPOTS[s.id].q)}</li>`).join("")}${PHASE_Q[r.grp].map(q => `<li>${tx(q)}</li>`).join("")}</ol></div>
+  <div class="avoid"><h2>${t("p.contact")}</h2><p>${CONFIG.contact.name}, ${tx(CONFIG.contact.role)} · ${CONFIG.contact.email}</p><p class="meta">${t("p.code")}: ${esc(encode(S.a, S.demo, S.name))}</p></div>
+  <div class="about avoid"><h2>${t("about.h")}</h2>${ABOUT[L()].map(p => `<p>${p}</p>`).join("")}</div>
+  <div class="foot2">PLM Change Navigator · ${t("foot.ver", { v: CONFIG.version, d: tx(CONFIG.contentDate) })} · ${t("r.disc")}</div></div>`;
+  document.body.classList.add("has-print");
+}
+function doPrint() { buildPrint(); setTimeout(() => window.print(), 50); }
+window.addEventListener("beforeprint", buildPrint);
+
+/* ====== EVENTS ====== */
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-act]");
+  if (!el || el.disabled) return;
+  if (el.tagName === "A") return;
+  e.preventDefault();
+  act(el.getAttribute("data-act"), el.dataset, el);
+});
+document.addEventListener("input", e => {
+  const el = e.target;
+  if (el.id === "setName") { S.name = cleanName(el.value); S.demoName = false; save(); }
+  else if (el.dataset && el.dataset.form) { S.form[el.dataset.form] = el.value.slice(0, 60); save(); }
+});
+document.addEventListener("change", e => {
+  const el = e.target;
+  if (el.id === "q8") { S.a.Q8 = el.value; save(); }
+  else if (el.id === "setName") { render(); }
+  else if (el.dataset && el.dataset.form) { S.form[el.dataset.form] = el.value; save(); }
+});
+document.addEventListener("keydown", e => {
+  const ae = document.activeElement, tag = ae ? ae.tagName : "";
+  if (e.key === "Escape") { if (S.ui.modal) { act("modalCancel", {}); return; } if (S.ui.settings) { act("closeSettings", {}); return; } }
+  if (ae && ae.id === "nameIn" && e.key === "Enter") { e.preventDefault(); act("start", {}); return; }
+  if (ae && ae.classList && ae.classList.contains("stop")) {
+    const q = ae.dataset.q, cur = Number(ae.dataset.v);
+    let n = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowUp") n = Math.min(5, (typeof S.a[q] === "number" ? S.a[q] : cur) + 1);
+    if (e.key === "ArrowLeft" || e.key === "ArrowDown") n = Math.max(1, (typeof S.a[q] === "number" ? S.a[q] : cur) - 1);
+    if (e.key === "Home") n = 1; if (e.key === "End") n = 5;
+    if (n != null) { e.preventDefault(); act("tpick", { q, v: String(n) }); return; }
+  }
+  if (S.ui.modal || S.ui.settings) return;
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (/^[1-9]$/.test(e.key)) {
+    const n = Number(e.key);
+    if (S.screen === "tensions") {
+      const key = tensionList(S.a)[S.ti];
+      if (key === "C1") { const ids = optIds("C1"); if (n <= ids.length) act("pick", { q: "C1", v: ids[n - 1] }); }
+      else if (n <= 5) act("tpick", { q: key, v: String(n) });
+    } else if (S.screen === "type" && n <= Q1.length) act("q1", { v: Q1[n - 1].id });
+    else if (S.screen === "timing") { const ids = optIds("TM"); if (n <= ids.length) act("pick", { q: "TM", v: ids[n - 1] }); }
+  }
+  if (e.key === "Enter" && (tag === "BODY" || tag === "MAIN" || (ae && ae.hasAttribute && ae.hasAttribute("data-focus")))) {
+    const b = document.querySelector("[data-primary]:not([disabled])"); if (b) { e.preventDefault(); b.click(); }
+  }
+});
+
+/* ====== SELF-TEST (for QA; run PCN.selfTest() in the console) ====== */
+function selfTest() {
+  const out = { ok: true, errors: [] };
+  const fail = m => { out.ok = false; out.errors.push(m); };
+  const ref = Object.assign(emptyAnswers(), JSON.parse(JSON.stringify(REF_SCENARIO)));
+  const r = evaluate(ref);
+  const expP = { H1: 6, H2: 3, H3: 5, H4: 1, H5: 2, H6: 0, H7: 1, H8: 2, H9: 0, H10: 0, H11: 0 };
+  for (const h in expP) if (r.P[h] !== expP[h]) fail(`ref points ${h}: ${r.P[h]} != ${expP[h]}`);
+  if (r.shown.map(s => s.id).join() !== "H1,H3,H2" || r.shown.some(s => s.fb)) fail("ref shown " + JSON.stringify(r.shown));
+  if (r.also.join() !== "H5,H8") fail("ref also " + r.also);
+  const expPil = { P1: "hi", P2: "hi", P3: "lo", P4: "md", P5: "md", P6: "lo", P7: "hi" };
+  for (const p in expPil) if (r.pil[p] !== expPil[p]) fail(`ref pillar ${p}: ${r.pil[p]}`);
+  if (r.unclear.join() !== "T4") fail("ref unclear " + r.unclear);
+  if (r.grp !== "design") fail("ref group " + r.grp);
+  if (!isComplete(ref)) fail("ref incomplete");
+  // fallback case
+  const fb = Object.assign(emptyAnswers(), { Q1: ["other"], Q2: "running", Q3: "cs", Q4: "cs", Q5: "cs", Q6: "cs", Q7: ["it"], T1: "cs", T2: "cs", T3: "cs", T4: "cs", T5: "cs", T6: "cs", T7: "cs", TM: "cs" });
+  const rf = evaluate(fb);
+  if (rf.shown.map(s => s.id + (s.fb ? "*" : "")).join() !== "H2*,H1*,H4*") fail("fallback " + JSON.stringify(rf.shown));
+  // random + codec
+  const names = ["", "Alex", "Jo <script>alert(1)<\/script>", "Zoë Müller-Łukasz", "李雷"];
+  for (let i = 0; i < 500; i++) {
+    const a = randomAnswers(); if (!isComplete(a)) { fail("random incomplete " + JSON.stringify(a)); break; }
+    const e1 = evaluate(a); if (e1.shown.length !== 3) { fail("shown != 3"); break; }
+    const nmx = names[i % names.length], demo = i % 2 === 0;
+    const code = encode(a, demo, nmx), dec = decode(code);
+    if (!dec) { fail("decode null " + code); break; }
+    if (JSON.stringify(dec.a) !== JSON.stringify(Object.assign(emptyAnswers(), a, { Q1: Q1IDS.filter(x => a.Q1.includes(x)), Q7: Q7IDS.filter(x => a.Q7.includes(x)) }))) { fail("roundtrip mismatch " + code); break; }
+    if (dec.demo !== demo || dec.name !== cleanName(nmx)) { fail("roundtrip meta " + code); break; }
+    if (JSON.stringify(evaluate(dec.a).shown) !== JSON.stringify(e1.shown)) { fail("roundtrip result"); break; }
+    const pos = CODE_PREFIX.length + 1 + (i % 20), ch = code[pos], alt = ch === "A" ? "B" : "A";
+    const bad = code.slice(0, pos) + alt + code.slice(pos + 1);
+    if (decode(bad)) out.collisions = (out.collisions || 0) + 1;
+    if (code.length > 120 && !nmx) fail("code too long " + code.length);
+  }
+  { const keep = S.a, keepL = S.lang, bad = [];
+    const walk = v => { if (Array.isArray(v) && v.length === 2 && typeof v[0] === "string") { const s = tx(v); if (/\{g|\{G|null|undefined/.test(s)) bad.push(s); } else if (v && typeof v === "object") Object.values(v).forEach(walk); };
+    for (const g of GROUP_ORDER) for (const lg of ["en", "de"]) { S.a = Object.assign(emptyAnswers(), { Q7: [g] }); S.lang = lg; [TENSIONS, HOTSPOTS, SIGNALS, NEEDS, NEED_BASE, PHASE_Q, UNCLEAR].forEach(walk); }
+    S.a = Object.assign(emptyAnswers(), { Q7: ["prod", "qual"] }); S.lang = "en"; if (tx(TENSIONS.T4.h) !== "What do production teams expect?") bad.push("prod T4: " + tx(TENSIONS.T4.h));
+    S.lang = "de"; if (tx(HOTSPOTS.H4.t) !== "Die Produktion erwartet mehr Arbeit") bad.push("prod H4 de: " + tx(HOTSPOTS.H4.t));
+    S.a = Object.assign(emptyAnswers(), { Q7: ["it", "design"] }); S.lang = "en"; if (tx(TENSIONS.T4.h) !== "What do engineers expect?") bad.push("design wins: " + tx(TENSIONS.T4.h));
+    S.a = keep; S.lang = keepL; if (bad.length) fail("group wording " + bad.slice(0, 3).join(" | ")); }
+  out.refCode = encode(ref, true, "Demo");
+  return out;
+}
+window.PCN = { buildXlsx, evaluate, encode, decode, randomAnswers, isComplete, selfTest, REF_SCENARIO, mailContent: () => mailContent(), mailtoUrl: () => mailtoUrl(), state: () => S };
+
+/* ====== INIT ====== */
+S = freshState();
+draft = readDraft();
+if (draft) { S.lang = draft.lang || S.lang; S.theme = draft.theme || S.theme; if (draft.name) S.name = draft.name; }
+render();
+
+</script>
+</body>
+</html>
